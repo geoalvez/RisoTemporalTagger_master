@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<simbolo nome="mes_numerico">
+    <expressao>"01"</expressao>
+    <expressao>"02"</expressao>
+    <expressao>"03"</expressao>
+    <expressao>"04"</expressao>
+    <expressao>"05"</expressao>
+    <expressao>"06"</expressao>
+    <expressao>"07"</expressao>
+    <expressao>"08"</expressao>
+    <expressao>"09"</expressao>
+    <expressao>"10"</expressao>
+    <expressao>"11"</expressao>
+    <expressao>"12"</expressao>
+</simbolo>

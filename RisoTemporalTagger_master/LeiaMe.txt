@@ -1,0 +1,20 @@
+*************************
+Dicionário
+*************************
+I - Intervalos
+EPT - estrutura_pre_temporal 
+EBT - estrutura_basica_temporal
+Pre - preposicoes 
+EMT - estrutura_minima_temporal
+UT - unidade_temporal
+Adv - adverbio
+DE -  datas_especiais
+
+*************************
+Expressao_temporal
+*************************
+Principal estrutura do programa. A partir dela é que é defida a ordem de prioridade de marcação das expressões temporais.
+
+
+*************************
+

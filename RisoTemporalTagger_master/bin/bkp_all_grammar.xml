@@ -1,0 +1,753 @@
+<?xml version="1.0"?>
+<simbolo nome="expressao_temporal">
+    <expressao>estrutura_pre_temporal estrutura_basica_temporal</expressao>
+    <expressao>estrutura_pre_temporal unidade_numeral unidade_temporal</expressao>
+    <expressao>estrutura_pre_temporal unidade_temporal</expressao>
+    <expressao>preposicoes estrutura_basica_temporal</expressao>
+    <expressao>preposicoes unidade_numeral unidade_temporal adverbio</expressao>
+    <expressao>preposicoes unidade_temporal adverbio</expressao>
+    <expressao>preposicoes estrutura_basica_temporal adverbio</expressao>
+    <expressao>estrutura_basica_temporal adverbio</expressao>
+    <expressao>unidade_numeral unidade_temporal adverbio</expressao>
+    <expressao>unidade_temporal adverbio adverbio</expressao>
+    <expressao>estrutura_basica_temporal adverbio</expressao>
+    <expressao>unidade_numeral unidade_temporal adverbio</expressao>
+    <expressao>unidade_temporal adverbio</expressao>
+    <expressao>"weeks from" estrutura_basica_temporal "to end of" estrutura_basica_temporal</expressao>
+    <expressao>"weeks from" unidade_numeral unidade_temporal "to end of" unidade_numeral unidade_temporal</expressao>
+    <expressao>"weeks from" unidade_temporal "to" unidade_temporal</expressao>
+    <expressao>"weeks from" estrutura_basica_temporal "to end of" unidade_numeral unidade_temporal</expressao>
+    <expressao>"weeks from" estrutura_basica_temporal "to end of" unidade_temporal</expressao>
+    <expressao>"weeks from" unidade_numeral unidade_temporal "to end of" estrutura_basica_temporal</expressao>
+    <expressao>"weeks from" unidade_numeral unidade_temporal "to end of" unidade_temporal</expressao>
+    <expressao>"weeks from" unidade_numeral unidade_temporal "to end of" unidade_numeral unidade_temporal</expressao>
+    <expressao>"weeks from" unidade_temporal "to" unidade_temporal</expressao>
+    <expressao>"weeks from" unidade_temporal "to" unidade_numeral unidade_temporal</expressao>
+    <expressao>"weeks from" unidade_temporal "to" estrutura_basica_temporal</expressao>
+</simbolo>
+
+<simbolo nome="estrutura_basica_temporal">
+    <expressao>mes dia_da_semana "," ano</expressao>
+    <expressao>mes dia_da_semana ano</expressao>
+    <expressao>mes dia_da_semana</expressao>
+    <expressao>mes "," ano</expressao>
+    <expressao>mes ano</expressao>
+    <expressao>ano</expressao>
+    <expressao>mes</expressao>
+    <expressao>dia_da_semana</expressao>
+</simbolo>
+
+<simbolo nome="estrutura_pre_temporal">
+    <expressao>"in the beginning"</expressao>
+    <expressao>"in the start of"</expressao>
+    <expressao>"in early"</expressao>
+    <expressao>"in earlier"</expressao>
+    <expressao>"in the middle of"</expressao>
+    <expressao>"in mid-[A-Za-z]*"</expressao>
+    <expressao>"in mid[A-Za-z]*"</expressao>
+    <expressao>"in mid"</expressao>
+    <expressao>"in the end of"</expressao>
+    <expressao>"in later"</expressao>
+    <expressao>"in late"</expressao>
+    <expressao>"in"</expressao>
+    <expressao>"on the beginning of"</expressao>
+    <expressao>"on the start of"</expressao>
+    <expressao>"on the start of"</expressao>
+    <expressao>"on early"</expressao>
+    <expressao>"on earlier"</expressao>
+    <expressao>"on the middle of"</expressao>
+    <expressao>"on mid-[A-Za-z]*"</expressao>
+    <expressao>"on mid[A-Za-z]*"</expressao>
+    <expressao>"on mid"</expressao>
+    <expressao>"on the end of"</expressao>
+    <expressao>"on late"</expressao>
+    <expressao>"on later"</expressao>
+    <expressao>"on"</expressao>
+    <expressao>"At the beginning of"</expressao>
+    <expressao>"At the start of"</expressao>
+    <expressao>"At early"</expressao>
+    <expressao>"At earlier"</expressao>
+    <expressao>"At the middle of"</expressao>
+    <expressao>"At mid-[A-Za-z]*"</expressao>
+    <expressao>"At mid[A-Za-z]*"</expressao>
+    <expressao>"At mid"</expressao>
+    <expressao>"At the end of"</expressao>
+    <expressao>"At later"</expressao>
+    <expressao>"At late"</expressao>
+    <expressao>"At"</expressao>
+    <expressao>"to the beginning of"</expressao>
+    <expressao>"to the start of"</expressao>
+    <expressao>"to early"</expressao>
+    <expressao>"to"</expressao>
+    <expressao>"to early"</expressao>
+    <expressao>"to earlier"</expressao>
+    <expressao>"to the middle of"</expressao>
+    <expressao>"to mid-[A-Za-z]*"</expressao>
+    <expressao>"to mid[A-Za-z]*"</expressao>
+    <expressao>"to mid[A-Za-z]*"</expressao>
+    <expressao>"to mid"</expressao>
+    <expressao>"to the end of"</expressao>
+    <expressao>"to later"</expressao>
+    <expressao>"to late"</expressao>
+    <expressao>"to"</expressao>
+    <expressao>"from"</expressao>
+    <expressao>"from the start of"</expressao>
+    <expressao>"from early"</expressao>
+    <expressao>"from earlier"</expressao>
+    <expressao>"from mid-[A-Za-z]*"</expressao>
+    <expressao>"from mid[A-Za-z]*"</expressao>
+    <expressao>"from mid"</expressao>
+    <expressao>"from the end of"</expressao>
+    <expressao>"from late"</expressao>
+    <expressao>"from later"</expressao>
+    <expressao>"approximately"</expressao>
+    <expressao>"about the beginning of"</expressao>
+    <expressao>"about the start of"</expressao>
+    <expressao>"about early"</expressao>
+    <expressao>"about earlier"</expressao>
+    <expressao>"about mid-[A-Za-z]*"</expressao>
+    <expressao>"about mid[A-Za-z]*"</expressao>
+    <expressao>"about mid"</expressao>
+    <expressao>"about the end of"</expressao>
+    <expressao>"about late"</expressao>
+    <expressao>"about"</expressao>
+    <expressao>"around mid-[A-Za-z]*"</expressao>
+    <expressao>"around mid[A-Za-z]*"</expressao>
+    <expressao>"around mid"</expressao>
+    <expressao>"around"</expressao>
+    <expressao>"round mid-[A-Za-z]*"</expressao>
+    <expressao>"round mid[A-Za-z]*"</expressao>
+    <expressao>"round mid"</expressao>
+    <expressao>"circa mid-[A-Za-z]*"</expressao>
+    <expressao>"circa mid[A-Za-z]*"</expressao>
+    <expressao>"circa mid"</expressao>
+    <expressao>"circa"</expressao>
+    <expressao>"nearly the beginning of"</expressao>
+    <expressao>"nearly"</expressao>
+    <expressao>"nearly early"</expressao>
+    <expressao>"nearly earlier"</expressao>
+    <expressao>"nearly mid-[A-Za-z]*"</expressao>
+    <expressao>"nearly mid[A-Za-z]*"</expressao>
+    <expressao>"nearly mid"</expressao>
+    <expressao>"nearly the end of"</expressao>
+    <expressao>"nearly late"</expressao>
+    <expressao>"nearly"</expressao>
+    <expressao>"almost the beginning of"</expressao>
+    <expressao>"almost beginning of"</expressao>
+    <expressao>"almost the start of"</expressao>
+    <expressao>"almost start of"</expressao>
+    <expressao>"almost early"</expressao>
+    <expressao>"almost"</expressao>
+    <expressao>"almost mid-[A-Za-z]*"</expressao>
+    <expressao>"almost mid[A-Za-z]*"</expressao>
+    <expressao>"almost mid"</expressao>
+    <expressao>"almost the end of"</expressao>
+    <expressao>"almost"</expressao>
+    <expressao>"at least the beginning of"</expressao>
+    <expressao>"at least the start of"</expressao>
+    <expressao>"at least early"</expressao>
+    <expressao>"at least mid-[A-Za-z]*"</expressao>
+    <expressao>"at least mid[A-Za-z]*"</expressao>
+    <expressao>"at least mid"</expressao>
+    <expressao>"at least the end of"</expressao>
+    <expressao>"at least"</expressao>
+    <expressao>"no more than"</expressao>
+    <expressao>"no longer than mid-[A-Za-z]*"</expressao>
+    <expressao>"no longer than mid[A-Za-z]*"</expressao>
+    <expressao>"no longer than mid"</expressao>
+    <expressao>"no longer than"</expressao>
+    <expressao>"longer than mid-[A-Za-z]*"</expressao>
+    <expressao>"longer than mid[A-Za-z]*"</expressao>
+    <expressao>"longer than mid"</expressao>
+    <expressao>"longer than"</expressao>
+    <expressao>"up to mid-[A-Za-z]*"</expressao>
+    <expressao>"up to mid[A-Za-z]*"</expressao>
+    <expressao>"up to mid"</expressao>
+    <expressao>"up to"</expressao>
+    <expressao>"less than mid"</expressao>
+    <expressao>"less than mid[A-Za-z]*"</expressao>
+    <expressao>"less than"</expressao>
+    <expressao>"more than mid-[A-Za-z]*"</expressao>
+    <expressao>"more than mid[A-Za-z]*"</expressao>
+    <expressao>"more than mid"</expressao>
+    <expressao>"more than"</expressao>
+    <expressao>"more than over mid-[A-Za-z]*"</expressao>
+    <expressao>"over mid[A-Za-z]*"</expressao>
+    <expressao>"over mid[A-Za-z]*"</expressao>
+    <expressao>"over mid"</expressao>
+    <expressao>"over"</expressao>
+    <expressao>"until the beginning of"</expressao>
+    <expressao>"the beginning of until"</expressao>
+    <expressao>"beginning of until"</expressao>
+    <expressao>"until beginning of"</expressao>
+    <expressao>"until the start of"</expressao>
+    <expressao>"until early"</expressao>
+    <expressao>"until earlier"</expressao>
+    <expressao>"until the middle of"</expressao>
+    <expressao>"until mid-[A-Za-z]*"</expressao>
+    <expressao>"until mid[A-Za-z]*"</expressao>
+    <expressao>"until mid"</expressao>
+    <expressao>"until the end of"</expressao>
+    <expressao>"until later"</expressao>
+    <expressao>"until late"</expressao>
+    <expressao>"until"</expressao>
+    <expressao>"before the beginning of"</expressao>
+    <expressao>"before the start of"</expressao>
+    <expressao>"before early"</expressao>
+    <expressao>"before the start of"</expressao>
+    <expressao>"before earlier"</expressao>
+    <expressao>"before the middle of"</expressao>
+    <expressao>"before mid-[A-Za-z]*"</expressao>
+    <expressao>"before mid-[A-Za-z]*"</expressao>
+    <expressao>"before mid[A-Za-z]*"</expressao>
+    <expressao>"before mid"</expressao>
+    <expressao>"before the end of"</expressao>
+    <expressao>"before"</expressao>
+    <expressao>"last mid-[A-Za-z]*"</expressao>
+    <expressao>"last mid[A-Za-z]*"</expressao>
+    <expressao>"last mid"</expressao>
+    <expressao>"last"</expressao>
+    <expressao>"past the beginning of"</expressao>
+    <expressao>"past the start of"</expressao>
+    <expressao>"past the middle of"</expressao>
+    <expressao>"past mid-[A-Za-z]*"</expressao>
+    <expressao>"past mid[A-Za-z]*"</expressao>
+    <expressao>"past mid"</expressao>
+    <expressao>"past the end of"</expressao>
+    <expressao>"past"</expressao>
+    <expressao>"next the beginning of"</expressao>
+    <expressao>"the beginning of the next"</expressao>
+    <expressao>"the beginning of next"</expressao>
+    <expressao>"beginning of the next"</expressao>
+    <expressao>"beginning of next"</expressao>
+    <expressao>"next"</expressao>
+    <expressao>"past the start of"</expressao>
+    <expressao>"past the middle of"</expressao>
+    <expressao>"past mid-[A-Za-z]*"</expressao>
+    <expressao>"past mid[A-Za-z]*"</expressao>
+    <expressao>"past mid"</expressao>
+    <expressao>"past the end of"</expressao>
+    <expressao>"past"</expressao>
+    <expressao>"since the beginning of"</expressao>
+    <expressao>"since the start of"</expressao>
+    <expressao>"since early"</expressao>
+    <expressao>"since earlier"</expressao>
+    <expressao>"since the middle of"</expressao>
+    <expressao>"since mid-[A-Za-z]*"</expressao>
+    <expressao>"since mid[A-Za-z]*"</expressao>
+    <expressao>"since mid"</expressao>
+    <expressao>"since the end of"</expressao>
+    <expressao>"since late"</expressao>
+    <expressao>"since later"</expressao>
+    <expressao>"since"</expressao>
+    <expressao>"the beginning of this"</expressao>
+    <expressao>"the start of this"</expressao>
+    <expressao>"this earlier"</expressao>
+    <expressao>"this mid-[A-Za-z]*"</expressao>
+    <expressao>"this mid[A-Za-z]*"</expressao>
+    <expressao>"this mid"</expressao>
+    <expressao>"this late"</expressao>
+    <expressao>"this later"</expressao>
+    <expressao>"this"</expressao>
+    <expressao>"late"</expressao>
+    <expressao>"later"</expressao>
+    <expressao>"that mid-[A-Za-z]*"</expressao>
+    <expressao>"that mid[A-Za-z]*"</expressao>
+    <expressao>"that mid"</expressao>
+    <expressao>"that late"</expressao>
+    <expressao>"that later"</expressao>
+    <expressao>"that"</expressao>
+    <expressao>"weeks from"</expressao>
+    <expressao>"week from"</expressao>
+    <expressao>"weeks between"</expressao>
+    <expressao>"week between"</expressao>
+</simbolo>
+
+<simbolo nome="unidade_temporal">
+    <expressao>"trading days"</expressao>
+    <expressao>"trading day"</expressao>
+    <expressao>"weekends"</expressao>
+    <expressao>"weekend"</expressao>
+    <expressao>"weeks"</expressao>
+    <expressao>"week-ends"</expressao>
+    <expressao>"week-end"</expressao>
+    <expressao>"minutes"</expressao>
+    <expressao>"minute"</expressao>
+    <expressao>"quarters"</expressao>
+    <expressao>"centuries"</expressao>
+    <expressao>"hours"</expressao>
+    <expressao>"months"</expressao>
+    <expressao>"decades"</expressao>
+    <expressao>"days"</expressao>
+    <expressao>"years"</expressao>
+    <expressao>"century"</expressao>
+    <expressao>"quarter"</expressao>
+    <expressao>"day"</expressao>
+    <expressao>"week"</expressao>
+    <expressao>"month"</expressao>
+    <expressao>"year"</expressao>
+    <expressao>"decade"</expressao>
+    <expressao>"hour"</expressao>
+    <expressao>"min"</expressao>
+</simbolo>
+
+<simbolo nome="unidade_numeral">
+   <expressao>"[0-9]+"</expressao> 
+</simbolo>
+
+<simbolo nome="hora">
+    <expressao>"^([0-1][0-9]"</expressao>
+    <expressao>"[2][0-3])(:([0-5][0-9])){1,2}$"</expressao>
+</simbolo>
+
+<simbolo nome="dia">
+    <expressao>"1st"</expressao>
+    <expressao>"2nd"</expressao>
+    <expressao>"3rd"</expressao>
+    <expressao>"4th"</expressao>
+    <expressao>"5th"</expressao>
+    <expressao>"6th"</expressao>
+    <expressao>"7th"</expressao>
+    <expressao>"8th"</expressao>
+    <expressao>"9th"</expressao>
+    <expressao>"10th"</expressao>
+    <expressao>"11th"</expressao>
+    <expressao>"12th"</expressao>
+    <expressao>"13th"</expressao>
+    <expressao>"14th"</expressao>
+    <expressao>"15th"</expressao>
+    <expressao>"16th"</expressao>
+    <expressao>"17th"</expressao>
+    <expressao>"18th"</expressao>
+    <expressao>"19th"</expressao>
+    <expressao>"20th"</expressao>
+    <expressao>"21st"</expressao>
+    <expressao>"22nd"</expressao>
+    <expressao>"23rd"</expressao>
+    <expressao>"24th"</expressao>
+    <expressao>"25th"</expressao>
+    <expressao>"26th"</expressao>
+    <expressao>"27th"</expressao>
+    <expressao>"28th"</expressao>
+    <expressao>"29th"</expressao>
+    <expressao>"30th"</expressao>
+    <expressao>"31st"</expressao>
+    <expressao>"01"</expressao>
+    <expressao>"02"</expressao>
+    <expressao>"03"</expressao>
+    <expressao>"04"</expressao>
+    <expressao>"05"</expressao>
+    <expressao>"06"</expressao>
+    <expressao>"07"</expressao>
+    <expressao>"08"</expressao>
+    <expressao>"09"</expressao>
+    <expressao>"10"</expressao>
+    <expressao>"11"</expressao>
+    <expressao>"12"</expressao>
+    <expressao>"13"</expressao>
+    <expressao>"14"</expressao>
+    <expressao>"15"</expressao>
+    <expressao>"16"</expressao>
+    <expressao>"17"</expressao>
+    <expressao>"18"</expressao>
+    <expressao>"19"</expressao>
+    <expressao>"20"</expressao>
+    <expressao>"21"</expressao>
+    <expressao>"22"</expressao>
+    <expressao>"23"</expressao>
+    <expressao>"24"</expressao>
+    <expressao>"25"</expressao>
+    <expressao>"26"</expressao>
+    <expressao>"27"</expressao>
+    <expressao>"28"</expressao>
+    <expressao>"29"</expressao>
+    <expressao>"30"</expressao>
+    <expressao>"31"</expressao>
+    <expressao>"1"</expressao>
+    <expressao>"2"</expressao>
+    <expressao>"3"</expressao>
+    <expressao>"4"</expressao>
+    <expressao>"5"</expressao>
+    <expressao>"6"</expressao>
+    <expressao>"7"</expressao>
+    <expressao>"8"</expressao>
+    <expressao>"9"</expressao>
+    <expressao>"eleventh"</expressao>
+    <expressao>"twelfth"</expressao>
+    <expressao>"thirteenth"</expressao>
+    <expressao>"fourteenth"</expressao>
+    <expressao>"fifteenth"</expressao>
+    <expressao>"sixteenth"</expressao>
+    <expressao>"seventeenth"</expressao>
+    <expressao>"eighteenth"</expressao>
+    <expressao>"nineteenth"</expressao>
+    <expressao>"twentieth"</expressao>
+    <expressao>"twenty-first"</expressao>
+    <expressao>"twenty-second"</expressao>
+    <expressao>"twenty-third"</expressao>
+    <expressao>"twenty-fourth"</expressao>
+    <expressao>"twenty-forth"</expressao>
+    <expressao>"twenty-fifth"</expressao>
+    <expressao>"twenty-sixth"</expressao>
+    <expressao>"twenty-seventh"</expressao>
+    <expressao>"twenty-eighth"</expressao>
+    <expressao>"twenty-ninth"</expressao>
+    <expressao>"thirtieth"</expressao>
+    <expressao>"thirty-first"</expressao>
+    <expressao>"first"</expressao>
+    <expressao>"second"</expressao>
+    <expressao>"third"</expressao>
+    <expressao>"forth"</expressao>
+    <expressao>"fourth"</expressao>
+    <expressao>"fifth"</expressao>
+    <expressao>"sixth"</expressao>
+    <expressao>"seventh"</expressao>
+    <expressao>"eighth"</expressao>
+    <expressao>"ninth"</expressao>
+    <expressao>"tenth"</expressao>
+    <expressao>"one"</expressao>
+    <expressao>"two"</expressao>
+    <expressao>"three"</expressao>
+    <expressao>"four"</expressao>
+    <expressao>"five"</expressao>
+    <expressao>"six"</expressao>
+    <expressao>"seven"</expressao>
+    <expressao>"eight"</expressao>
+    <expressao>"nine"</expressao>
+    <expressao>"ten"</expressao>
+    <expressao>"eleven"</expressao>
+    <expressao>"twelve"</expressao>
+    <expressao>"thirteen"</expressao>
+    <expressao>"fourteen"</expressao>
+    <expressao>"fifteen"</expressao>
+    <expressao>"sixteen"</expressao>
+    <expressao>"seventeen"</expressao>
+    <expressao>"eighteen"</expressao>
+    <expressao>"nineteen"</expressao>
+    <expressao>"twenty"</expressao>
+    <expressao>"twenty-one"</expressao>
+    <expressao>"twenty-two"</expressao>
+    <expressao>"twenty-three"</expressao>
+    <expressao>"twenty-four"</expressao>
+    <expressao>"twenty-five"</expressao>
+    <expressao>"twenty-six"</expressao>
+    <expressao>"twenty-seven"</expressao>
+    <expressao>"twenty-eight"</expressao>
+    <expressao>"twenty-nine"</expressao>
+    <expressao>"thirty"</expressao>
+    <expressao>"thirty-one"</expressao>
+    <expressao>"monday"</expressao>
+    <expressao>"tuesday"</expressao>
+    <expressao>"wednesday"</expressao>
+    <expressao>"thursday"</expressao>
+    <expressao>"friday"</expressao>
+    <expressao>"saturday"</expressao>
+    <expressao>"sunday</expressao>
+</simbolo>
+
+<simbolo nome="data_numeral">
+    <expressao>"^\d{4}-(0[1-9]"</expressao>
+    <expressao>"1[0,1,2])-(0[1-9]"</expressao>
+    <expressao>"[1,2][0-9]"</expressao>
+    <expressao>"3[0,1])$"</expressao>
+    <expressao>"^([1-9]"</expressao>
+    <expressao>"0[1-9]"</expressao>
+    <expressao>"[1,2][0-9]"</expressao>
+    <expressao>"3[0,1])/([1-9]"</expressao>
+    <expressao>"1[0,1,2])/\d{4}$"</expressao>
+</simbolo>
+
+<simbolo nome="mes">
+    <expressao>"january"</expressao>
+    <expressao>"jan"</expressao>
+    <expressao>"february"</expressao>
+    <expressao>"feb"</expressao>
+    <expressao>"march"</expressao>
+    <expressao>"mar"</expressao>
+    <expressao>"april"</expressao>
+    <expressao>"apr"</expressao>
+    <expressao>"may"</expressao>
+    <expressao>"june"</expressao>
+    <expressao>"jun"</expressao>
+    <expressao>"july"</expressao>
+    <expressao>"jul"</expressao>
+    <expressao>"august"</expressao>
+    <expressao>"aug"</expressao>
+    <expressao>"september"</expressao>
+    <expressao>"sept"</expressao>
+    <expressao>"sep"</expressao>
+    <expressao>"october"</expressao>
+    <expressao>"oct"</expressao>
+    <expressao>"november"</expressao>
+    <expressao>"nov"</expressao>
+    <expressao>"december"</expressao>
+    <expressao>"dec"</expressao>
+</simbolo>
+
+<simbolo nome="ano">
+    <expressao>"((?&lt=\s)\d{4}|^\d{4})"</expressao>
+</simbolo>
+
+<simbolo nome="datas_especiais">
+    <expressao>"Ash Wednesday"</expressao>
+    <expressao>"Palm Sunday"</expressao>
+    <expressao>"Yew Sunday"</expressao>
+    <expressao>"Branch Sunday"</expressao>
+    <expressao>"Maundy Thursday"</expressao>
+    <expressao>"Holy Thursday"</expressao>
+    <expressao>"Covenant Thursday"</expressao>
+    <expressao>"Great & Holy Thursday"</expressao>
+    <expressao>"Thursday of Mysteries"</expressao>
+    <expressao>"Good Friday"</expressao>
+    <expressao>"Holy Friday"</expressao>
+    <expressao>"Great Friday"</expressao>
+    <expressao>"Easter Friday"</expressao>
+    <expressao>"Holy Saturday"</expressao>
+    <expressao>"Easter Eve"</expressao>
+    <expressao>"Black Saturday"</expressao>
+    <expressao>"Holy and Great Saturday"</expressao>
+    <expressao>"The Great Sabbath"</expressao>
+    <expressao>"Joyous Saturday"</expressao>
+    <expressao>"Easter Day"</expressao>
+    <expressao>"Easter Sunday"</expressao>
+    <expressao>"Easter"</expressao>
+    <expressao>"Resurrection Day"</expressao>
+    <expressao>"Resurrection Sunday"</expressao>
+    <expressao>"Easter Monday"</expressao>
+    <expressao>"Octave of Easter"</expressao>
+    <expressao>"Octave Day of Easter"</expressao>
+    <expressao>"Low Sunday"</expressao>
+    <expressao>"Saint Thomas Sunday"</expressao>
+    <expressao>"St. Thomas Sunday"</expressao>
+    <expressao>"Quasimodo Sunday"</expressao>
+    <expressao>"Quasimodogeniti"</expressao>
+    <expressao>"Second Sunday of Easter"</expressao>
+    <expressao>"Divine Mercy Sunday"</expressao>
+    <expressao>"Feast of the Ascension"</expressao>
+    <expressao>"Solemnity of the Ascension of the Lord"</expressao>
+    <expressao>"Ascension Thursday"</expressao>
+    <expressao>"Father's Day"</expressao>
+    <expressao>"Reformation Sunday"</expressao>
+    <expressao>"Pentecost"</expressao>
+    <expressao>"Whit Sunday"</expressao>
+    <expressao>"Whitsun"</expressao>
+    <expressao>"Whit"</expressao>
+    <expressao>"Corpus Christi"</expressao>
+    <expressao>"The Most Holy Body and Blood of Christ"</expressao>
+    <expressao>"1.Advent"</expressao>
+    <expressao>"1st Advent"</expressao>
+    <expressao>"first Advent"</expressao>
+    <expressao>"2.Advent"</expressao>
+    <expressao>"2nd Advent"</expressao>
+    <expressao>"second Advent"</expressao>
+    <expressao>"3.Advent"</expressao>
+    <expressao>"3rd Advent"</expressao>
+    <expressao>"third Advent"</expressao>
+    <expressao>"4.Advent"</expressao>
+    <expressao>"4th Advent"</expressao>
+    <expressao>"fourth Advent"</expressao>
+    <expressao>"Black Friday"</expressao>
+    <expressao>"Birthday of Martin Luther King, Jr"</expressao>
+    <expressao>"Martin Luther King"</expressao>
+    <expressao>"Day"</expressao>
+    <expressao>"Martin Luther King, Jr. Day"</expressao>
+    <expressao>"Presidents Day"</expressao>
+    <expressao>"Presidents' Day"</expressao>
+    <expressao>"President's Day"</expressao>
+    <expressao>"Washington's Birthday"</expressao>
+    <expressao>"Memorial Day"</expressao>
+    <expressao>"Decoration Day"</expressao>
+    <expressao>"Labor Day"</expressao>
+    <expressao>"Columbus Day"</expressao>
+    <expressao>"Thanksgiving"</expressao>
+    <expressao>"Thanksgiving Day"</expressao>
+    <expressao>"Mother's Day"</expressao>
+    <expressao>"New Year's Day"</expressao>
+    <expressao>"Groundhog Day"</expressao>
+    <expressao>"Valentines Day"</expressao>
+    <expressao>"Saint Valentines Day"</expressao>
+    <expressao>"St. Valentines Day"</expressao>
+    <expressao>"Valentine's Day"</expressao>
+    <expressao>"Saint Valentine's Day"</expressao>
+    <expressao>"St. Valentine's Day"</expressao>
+    <expressao>"Valentines' Day"</expressao>
+    <expressao>"Saint Valentines"</expressao>
+    <expressao>"St. Valentines' Day"</expressao>
+    <expressao>"Patriots Day"</expressao>
+    <expressao>"Patriots' Day"</expressao>
+    <expressao>"Patriot's Day"</expressao>
+    <expressao>"German-American Day"</expressao>
+    <expressao>"White Cane Safety Day"</expressao>
+    <expressao>"Boss's Day"</expressao>
+    <expressao>"Bosses Day"</expressao>
+    <expressao>"Bosses' Day"</expressao>
+    <expressao>"National Boss Day"</expressao>
+    <expressao>"Independence Day"</expressao>
+    <expressao>"Fourth of July"</expressao>
+    <expressao>"Veterans Day"</expressao>
+    <expressao>"Armistice Day"</expressao>
+    <expressao>"Remembrance Day"</expressao>
+    <expressao>"Poppy Day"</expressao>
+    <expressao>"Epiphany"</expressao>
+    <expressao>"Theophany"</expressao>
+    <expressao>"Halloween"</expressao>
+    <expressao>"All Hallows' Evening"</expressao>
+    <expressao>"Hallowe'en"</expressao>
+    <expressao>"All Hallows"</expressao>
+    <expressao>"Assumption of Mary"</expressao>
+    <expressao>"Assumption of the Blessed Virgin Mary into Heaven"</expressao>
+    <expressao>"The Assumption"</expressao>
+    <expressao>"Reformation Day"</expressao>
+    <expressao>"All Saints"</expressao>
+    <expressao>"All Saints' Day"</expressao>
+    <expressao>"Solemnity of All Saints"</expressao>
+    <expressao>"All Hallows"</expressao>
+    <expressao>"Hallowmas"</expressao>
+    <expressao>"Christmas Eve"</expressao>
+    <expressao>"Christmas Day"</expressao>
+    <expressao>"Christmas"</expressao>
+    <expressao>"Xmas"</expressao>
+    <expressao>"Noel"</expressao>
+    <expressao>"Yule"</expressao>
+    <expressao>"New Year's Eve"</expressao>
+    <expressao>"Hogmanay"</expressao>
+    <expressao>"Calennig"</expressao>
+    <expressao>"May Day"</expressao>
+    <expressao>"International Workers Day"</expressao>
+    <expressao>"International Worker's Day"</expressao>
+    <expressao>"International Workers' Day"</expressao>
+    <expressao>"Boxing Day"</expressao>
+    <expressao>"Saint Patricks Day"</expressao>
+    <expressao>"St. Patricks Day"</expressao>
+    <expressao>"Saint Patricks Day"</expressao>
+    <expressao>"St. Paddys Day"</expressao>
+    <expressao>"St. Pattys Day"</expressao>
+    <expressao>"Saint Pattys Day"</expressao>
+    <expressao>"Saint Patrick's Day"</expressao>
+    <expressao>"St. Patrick's Day"</expressao>
+    <expressao>"Saint Patrick's Day"</expressao>
+    <expressao>"St. Paddy's Day"</expressao>
+    <expressao>"Saint Paddy's Day"</expressao>
+    <expressao>"St. Patty's Day"</expressao>
+    <expressao>"Saint Patty's Day"</expressao>
+    <expressao>"Saint Patricks' Day"</expressao>
+    <expressao>"St. Patricks' Day"</expressao>
+    <expressao>"Saint Patricks' Day"</expressao>
+    <expressao>"St. Paddys' Day"</expressao>
+    <expressao>"Saint Paddys' Day"</expressao>
+    <expressao>"St. Pattys' Day"</expressao>
+    <expressao>"Saint Pattys' Day"</expressao>
+    <expressao>"Saint Andrews Day"</expressao>
+    <expressao>"Saint Andrew's Day"</expressao>
+    <expressao>"Saint Andrews' Day"</expressao>
+    <expressao>"St. Andrews Day"</expressao>
+    <expressao>"St. Andrew's Day"</expressao>
+    <expressao>"St. Andrews' Day"</expressao>
+</simbolo>
+
+<simbolo nome="partes_do_ano">
+    <expressao>"first-quarter"</expressao>
+    <expressao>"first quarter"</expressao>
+    <expressao>"fiscal-first quarter"</expressao>
+    <expressao>"fiscal first quarter"</expressao>
+    <expressao>"Fiscal first-quarter"</expressao>
+    <expressao>"second-quarter"</expressao>
+    <expressao>"second quarter"</expressao>
+    <expressao>"fiscal-second quarter"</expressao>
+    <expressao>"fiscal second quarter"</expressao>
+    <expressao>"fiscal second-quarter"</expressao>
+    <expressao>"third-quarter"</expressao>
+    <expressao>"third quarter"</expressao>
+    <expressao>"fiscal-third quarter"</expressao>
+    <expressao>"fiscal third quarter"</expressao>
+    <expressao>"fiscal third-quarter"</expressao>
+    <expressao>"fourth-quarter"</expressao>
+    <expressao>"fourth quarter"</expressao>
+    <expressao>"forth-quarter"</expressao>
+    <expressao>"forth quarter"</expressao>
+    <expressao>"fiscal-fourth quarter"</expressao>
+    <expressao>"fiscal fourth-quarter"</expressao>
+    <expressao>"fiscal-forth quarter"</expressao>
+    <expressao>"fiscal forth-quarter"</expressao>
+    <expressao>"last-quarter"</expressao>
+    <expressao>"last quarter"</expressao>
+    <expressao>"first-half"</expressao>
+    <expressao>"first half"</expressao>
+    <expressao>"second-half"</expressao>
+    <expressao>"second half"</expressao>
+    <expressao>"last-half"</expressao>
+    <expressao>"last half"</expressao>
+</simbolo>
+
+<simbolo nome="estacao_do_ano">
+    <expressao>"spring"</expressao>
+    <expressao>"summer"</expressao>
+    <expressao>"fall"</expressao>
+    <expressao>"autumn"</expressao>
+    <expressao>"winter"</expressao>
+</simbolo>
+
+<simbolo nome="parte_do_dia">
+    <expressao>"mornings"</expressao>
+    <expressao>"morning"</expressao>
+    <expressao>"noon"</expressao>
+    <expressao>"mid-day"</expressao>
+    <expressao>"mid-afternoon"</expressao>
+    <expressao>"afternoon"</expressao>
+    <expressao>"evenings"</expressao>
+    <expressao>"evening"</expressao>
+    <expressao>"nights"</expressao>
+    <expressao>"tonight"</expressao>
+    <expressao>"midnights"</expressao>
+    <expressao>"midnight"</expressao>
+    <expressao>"night"</expressao>
+</simbolo>
+
+<simbolo nome="parte_da_semana">
+    <expressao>"annually"</expressao>
+    <expressao>"monthly"</expressao>
+    <expressao>"daily"</expressao>
+    <expressao>"weekly"</expressao>
+</simbolo>
+
+<simbolo nome="expressoes">
+    <expressao>"The day before yesterday"</expressao>
+    <expressao>"today"</expressao>
+    <expressao>"tomorrow"</expressao>
+    <expressao>"yesterday"</expressao>
+    <expressao>"right now"</expressao>
+    <expressao>"now"</expressao>
+    <expressao>"currently"</expressao>
+    <expressao>"current"</expressao>
+    <expressao>"as soon as possible"</expressao>
+    <expressao>"soon"</expressao>
+    <expressao>"recently"</expressao>
+    <expressao>"previously"</expressao>
+    <expressao>"formerly"</expressao>
+    <expressao>"recent"</expressao>
+    <expressao>"former"</expressao>
+</simbolo>
+
+<simbolo nome="preposicoes">
+    <expressao>"weeks from"</expressao>
+    <expressao>"until"</expressao>
+    <expressao>"about"</expressao>
+    <expressao>"nearly"</expressao>
+    <expressao>"almost"</expressao>
+    <expressao>"at least"</expressao>
+    <expressao>"in"</expressao>
+    <expressao>"on"</expressao>
+    <expressao>"at"</expressao>
+    <expressao>"since"</expressao>
+    <expressao>"from"</expressao>
+    <expressao>"of"</expressao>
+    <expressao>"to"</expressao>
+ </simbolo>
+ 
+<simbolo nome="adverbio">
+    <expressao>"early"</expressao>
+    <expressao>"later"</expressao>
+    <expressao>"late"</expressao>
+    <expressao>"earlier"</expressao>
+    <expressao>"past"</expressao>
+</simbolo>

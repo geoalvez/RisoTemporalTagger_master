@@ -1,0 +1,1579 @@
+<?xml version="1.0"?>
+<simbolo nome="datas_especiais">
+    <expressao>"Ash Wednesday"</expressao>
+    <expressao>"Palm Sunday"</expressao>
+    <expressao>"Yew Sunday"</expressao>
+    <expressao>"Branch Sunday"</expressao>
+    <expressao>"Maundy Thursday"</expressao>
+    <expressao>"Holy Thursday"</expressao>
+    <expressao>"Covenant Thursday"</expressao>
+    <expressao>"Great &amp; Holy Thursday"</expressao>
+    <expressao>"Thursday of Mysteries"</expressao>
+    <expressao>"Good Friday"</expressao>
+    <expressao>"Holy Friday"</expressao>
+    <expressao>"Great Friday"</expressao>
+    <expressao>"Easter Friday"</expressao>
+    <expressao>"Holy Saturday"</expressao>
+    <expressao>"Easter Eve"</expressao>
+    <expressao>"Black Saturday"</expressao>
+    <expressao>"Holy and Great Saturday"</expressao>
+    <expressao>"The Great Sabbath"</expressao>
+    <expressao>"Joyous Saturday"</expressao>
+    <expressao>"Easter Day"</expressao>
+    <expressao>"Easter Sunday"</expressao>
+    <expressao>"Easter"</expressao>
+    <expressao>"Resurrection Day"</expressao>
+    <expressao>"Resurrection Sunday"</expressao>
+    <expressao>"Easter Monday"</expressao>
+    <expressao>"Octave of Easter"</expressao>
+    <expressao>"Octave Day of Easter"</expressao>
+    <expressao>"Low Sunday"</expressao>
+    <expressao>"Saint Thomas Sunday"</expressao>
+    <expressao>"St. Thomas Sunday"</expressao>
+    <expressao>"Quasimodo Sunday"</expressao>
+    <expressao>"Quasimodogeniti"</expressao>
+    <expressao>"Second Sunday of Easter"</expressao>
+    <expressao>"Divine Mercy Sunday"</expressao>
+    <expressao>"Feast of the Ascension"</expressao>
+    <expressao>"Solemnity of the Ascension of the Lord"</expressao>
+    <expressao>"Ascension Thursday"</expressao>
+    <expressao>"Father's Day"</expressao>
+    <expressao>"Reformation Sunday"</expressao>
+    <expressao>"Pentecost"</expressao>
+    <expressao>"Whit Sunday"</expressao>
+    <expressao>"Whitsun"</expressao>
+    <expressao>"Whit"</expressao>
+    <expressao>"Corpus Christi"</expressao>
+    <expressao>"The Most Holy Body and Blood of Christ"</expressao>
+    <expressao>"1.Advent"</expressao>
+    <expressao>"1st Advent"</expressao>
+    <expressao>"first Advent"</expressao>
+    <expressao>"2.Advent"</expressao>
+    <expressao>"2nd Advent"</expressao>
+    <expressao>"second Advent"</expressao>
+    <expressao>"3.Advent"</expressao>
+    <expressao>"3rd Advent"</expressao>
+    <expressao>"third Advent"</expressao>
+    <expressao>"4.Advent"</expressao>
+    <expressao>"4th Advent"</expressao>
+    <expressao>"fourth Advent"</expressao>
+    <expressao>"Black Friday"</expressao>
+    <expressao>"Birthday of Martin Luther King, Jr"</expressao>
+    <expressao>"Martin Luther King"</expressao>
+    <expressao>"Day"</expressao>
+    <expressao>"Martin Luther King, Jr. Day"</expressao>
+    <expressao>"Presidents Day"</expressao>
+    <expressao>"Presidents' Day"</expressao>
+    <expressao>"President's Day"</expressao>
+    <expressao>"Washington's Birthday"</expressao>
+    <expressao>"Memorial Day"</expressao>
+    <expressao>"Decoration Day"</expressao>
+    <expressao>"Labor Day"</expressao>
+    <expressao>"Columbus Day"</expressao>
+    <expressao>"Thanksgiving"</expressao>
+    <expressao>"Thanksgiving Day"</expressao>
+    <expressao>"Mother's Day"</expressao>
+    <expressao>"New Year's Day"</expressao>
+    <expressao>"Groundhog Day"</expressao>
+    <expressao>"Valentines Day"</expressao>
+    <expressao>"Saint Valentines Day"</expressao>
+    <expressao>"St. Valentines Day"</expressao>
+    <expressao>"Valentine's Day"</expressao>
+    <expressao>"Saint Valentine's Day"</expressao>
+    <expressao>"St. Valentine's Day"</expressao>
+    <expressao>"Valentines' Day"</expressao>
+    <expressao>"Saint Valentines"</expressao>
+    <expressao>"St. Valentines' Day"</expressao>
+    <expressao>"Patriots Day"</expressao>
+    <expressao>"Patriots' Day"</expressao>
+    <expressao>"Patriot's Day"</expressao>
+    <expressao>"German-American Day"</expressao>
+    <expressao>"White Cane Safety Day"</expressao>
+    <expressao>"Boss's Day"</expressao>
+    <expressao>"Bosses Day"</expressao>
+    <expressao>"Bosses' Day"</expressao>
+    <expressao>"National Boss Day"</expressao>
+    <expressao>"Independence Day"</expressao>
+    <expressao>"Fourth of July"</expressao>
+    <expressao>"Veterans Day"</expressao>
+    <expressao>"Armistice Day"</expressao>
+    <expressao>"Remembrance Day"</expressao>
+    <expressao>"Poppy Day"</expressao>
+    <expressao>"Epiphany"</expressao>
+    <expressao>"Theophany"</expressao>
+    <expressao>"Halloween"</expressao>
+    <expressao>"All Hallows' Evening"</expressao>
+    <expressao>"Hallowe'en"</expressao>
+    <expressao>"All Hallows"</expressao>
+    <expressao>"Assumption of Mary"</expressao>
+    <expressao>"Assumption of the Blessed Virgin Mary into Heaven"</expressao>
+    <expressao>"The Assumption"</expressao>
+    <expressao>"Reformation Day"</expressao>
+    <expressao>"All Saints"</expressao>
+    <expressao>"All Saints' Day"</expressao>
+    <expressao>"Solemnity of All Saints"</expressao>
+    <expressao>"All Hallows"</expressao>
+    <expressao>"Hallowmas"</expressao>
+	<expressao>"Christmas night"</expressao>
+    <expressao>"Christmas Eve"</expressao>
+    <expressao>"Christmas Day"</expressao>
+    <expressao>"Christmas"</expressao>
+    <expressao>"Xmas"</expressao>
+    <expressao>"Noel"</expressao>
+    <expressao>"Yule"</expressao>
+    <expressao>"New Year's Eve"</expressao>
+    <expressao>"Hogmanay"</expressao>
+    <expressao>"Calennig"</expressao>
+    <expressao>"May Day"</expressao>
+    <expressao>"International Workers Day"</expressao>
+    <expressao>"International Worker's Day"</expressao>
+    <expressao>"International Workers' Day"</expressao>
+    <expressao>"Boxing Day"</expressao>
+    <expressao>"Saint Patricks Day"</expressao>
+    <expressao>"St. Patricks Day"</expressao>
+    <expressao>"Saint Patricks Day"</expressao>
+    <expressao>"St. Paddys Day"</expressao>
+    <expressao>"St. Pattys Day"</expressao>
+    <expressao>"Saint Pattys Day"</expressao>
+    <expressao>"Saint Patrick's Day"</expressao>
+    <expressao>"St. Patrick's Day"</expressao>
+    <expressao>"Saint Patrick's Day"</expressao>
+    <expressao>"St. Paddy's Day"</expressao>
+    <expressao>"Saint Paddy's Day"</expressao>
+    <expressao>"St. Patty's Day"</expressao>
+    <expressao>"Saint Patty's Day"</expressao>
+    <expressao>"Saint Patricks' Day"</expressao>
+    <expressao>"St. Patricks' Day"</expressao>
+    <expressao>"Saint Patricks' Day"</expressao>
+    <expressao>"St. Paddys' Day"</expressao>
+    <expressao>"Saint Paddys' Day"</expressao>
+    <expressao>"St. Pattys' Day"</expressao>
+    <expressao>"Saint Pattys' Day"</expressao>
+    <expressao>"Saint Andrews Day"</expressao>
+    <expressao>"Saint Andrew's Day"</expressao>
+    <expressao>"Saint Andrews' Day"</expressao>
+    <expressao>"St. Andrews Day"</expressao>
+    <expressao>"St. Andrew's Day"</expressao>
+    <expressao>"St. Andrews' Day"</expressao>
+	<expressao>"the Gandhian Era"</expressao>
+	<expressao>"Hundred Days"</expressao>
+	<expressao>"natal"</expressao>
+    <expressao>"1950 FIFA World Cup"</expressao>
+    <expressao>"Massachusetts"</expressao>
+    <expressao>"Boston"</expressao>
+    <expressao>"General Gage"</expressao>
+    <expressao>"Paul Revere"</expressao>
+    <expressao>"Paris"</expressao>
+    <expressao>"National Convention"</expressao>
+    <expressao>"Toulon"</expressao>
+    <expressao>"Tuileries Palace"</expressao>
+    <expressao>"Joachim Murat"</expressao>
+    <expressao>"French Revolution"</expressao>
+    <expressao>"Napoleon"</expressao>
+    <expressao>"Italy"</expressao>
+    <expressao>"Japan"</expressao>
+    <expressao>"Tsar Nicholas II"</expressao>
+    <expressao>"Russia"</expressao>
+    <expressao>"Montenegro"</expressao>
+    <expressao>"Ottoman Empire"</expressao>
+    <expressao>"Battle of Port Arthur"</expressao>
+    <expressao>"Russians"</expressao>
+    <expressao>"Incheon"</expressao>
+    <expressao>"Kuroki Itei"</expressao>
+    <expressao>"Irkutsk"</expressao>
+    <expressao>"Battle of Nanshan"</expressao>
+    <expressao>"Vladivostok"</expressao>
+    <expressao>"Togo"</expressao>
+    <expressao>"Admiral Vitgeft"</expressao>
+    <expressao>"Battle of Liaoyang"</expressao>
+    <expressao>"Baltic Sea"</expressao>
+    <expressao>"China"</expressao>
+    <expressao>"England"</expressao>
+    <expressao>"Mukden"</expressao>
+    <expressao>"Battle of Shaho"</expressao>
+    <expressao>"Grippenberg"</expressao>
+    <expressao>"Kuropatkin"</expressao>
+    <expressao>"Battle of Mukden"</expressao>
+    <expressao>"General Kuropatkin"</expressao>
+    <expressao>"Madagascar"</expressao>
+    <expressao>"Second Pacific Squadron"</expressao>
+    <expressao>"Battle of Tsushima"</expressao>
+    <expressao>"Franco Prussian War"</expressao>
+    <expressao>"American Civil War"</expressao>
+    <expressao>"Ian Standish Monteith Hamilton"</expressao>
+    <expressao>"Louis XVI"</expressao>
+    <expressao>"American Revolutionary War"</expressao>
+    <expressao>"Jacques Necker"</expressao>
+    <expressao>"France"</expressao>
+    <expressao>"Marie Antoinette"</expressao>
+    <expressao>"National Constituent Assembly"</expressao>
+    <expressao>"Jean Sylvain Bailly"</expressao>
+    <expressao>"United States"</expressao>
+    <expressao>"U.S."</expressao>
+    <expressao>"Voltaire"</expressao>
+    <expressao>"Pope Pius VI"</expressao>
+    <expressao>"Robespierre"</expressao>
+    <expressao>"French State"</expressao>
+    <expressao>"Jean Joseph Mounier"</expressao>
+    <expressao>"Adrien Duport"</expressao>
+    <expressao>"Mars"</expressao>
+    <expressao>"Tuileries"</expressao>
+    <expressao>"Antoine Pierre Joseph Marie Barnave"</expressao>
+    <expressao>"Queen Marie Antoinette"</expressao>
+    <expressao>"Jacques Pierre Brissot"</expressao>
+    <expressao>"Georges Danton"</expressao>
+    <expressao>"Camille Desmoulins"</expressao>
+    <expressao>"Danton"</expressao>
+    <expressao>"Desmoulins"</expressao>
+    <expressao>"Holy Roman Emperor Leopold II"</expressao>
+    <expressao>"William II of Prussia"</expressao>
+    <expressao>"Prussia"</expressao>
+    <expressao>"Mignet"</expressao>
+    <expressao>"Austria"</expressao>
+    <expressao>"Albert Camus"</expressao>
+    <expressao>"Maximilien Robespierre"</expressao>
+    <expressao>"Jacques Roux"</expressao>
+    <expressao>"Charlotte Corday"</expressao>
+    <expressao>"Madame Roland"</expressao>
+    <expressao>"Jean Baptiste Carrier"</expressao>
+    <expressao>"Nantes"</expressao>
+    <expressao>"Louis XVIII"</expressao>
+    <expressao>"First Coalition"</expressao>
+    <expressao>"Napoleon Bonaparte"</expressao>
+    <expressao>"Claire Lacombe"</expressao>
+    <expressao>"Fourth Crusade"</expressao>
+    <expressao>"Michael VIII Palaeologus"</expressao>
+    <expressao>"Rome"</expressao>
+    <expressao>"Napoleone di Buonaparte"</expressao>
+    <expressao>"French military"</expressao>
+    <expressao>"Napoleonic Wars"</expressao>
+    <expressao>"Quebec"</expressao>
+    <expressao>"Corsica"</expressao>
+    <expressao>"Egypt"</expressao>
+    <expressao>"First Consul"</expressao>
+    <expressao>"Battle of Austerlitz"</expressao>
+    <expressao>"Ulm Campaign"</expressao>
+    <expressao>"Pressburg"</expressao>
+    <expressao>"Battle of Trafalgar"</expressao>
+    <expressao>"Fourth Coalition"</expressao>
+    <expressao>"Battle of Friedland"</expressao>
+    <expressao>"Tilsit"</expressao>
+    <expressao>"King of Spain"</expressao>
+    <expressao>"Spain"</expressao>
+    <expressao>"Peninsular War"</expressao>
+    <expressao>"Battle of Wagram"</expressao>
+    <expressao>"Fifth Coalition"</expressao>
+    <expressao>"Sixth Coalition"</expressao>
+    <expressao>"Battle of Leipzig"</expressao>
+    <expressao>"Leipzig"</expressao>
+    <expressao>"Elba"</expressao>
+    <expressao>"Battle of Waterloo"</expressao>
+    <expressao>"Saint Helena"</expressao>
+    <expressao>"Les Invalides"</expressao>
+    <expressao>"Maria Letizia Ramolino"</expressao>
+    <expressao>"Genoa"</expressao>
+    <expressao>"Letizia Ramolino"</expressao>
+    <expressao>"Richard Cosway"</expressao>
+    <expressao>"Augustin Robespierre"</expressao>
+    <expressao>"Mediterranean coast"</expressao>
+    <expressao>"Sardinia"</expressao>
+    <expressao>"Bourrienne"</expressao>
+    <expressao>"Julie Clary"</expressao>
+    <expressao>"Constantinople"</expressao>
+    <expressao>"Montenotte Campaign"</expressao>
+    <expressao>"French forces"</expressao>
+    <expressao>"Vienna"</expressao>
+    <expressao>"Venice"</expressao>
+    <expressao>"Caesar"</expressao>
+    <expressao>"India"</expressao>
+    <expressao>"Tipu Sultan"</expressao>
+    <expressao>"Battle of Shubra Khit"</expressao>
+    <expressao>"General Bonaparte"</expressao>
+    <expressao>"Alexandria"</expressao>
+    <expressao>"Horatio Nelson"</expressao>
+    <expressao>"Nile"</expressao>
+    <expressao>"Mediterranean"</expressao>
+    <expressao>"Haifa"</expressao>
+    <expressao>"Second Coalition"</expressao>
+    <expressao>"Roger Ducos"</expressao>
+    <expressao>"Jean Baptiste Joseph Delambre"</expressao>
+    <expressao>"Toussaint Louverture"</expressao>
+    <expressao>"Guadeloupe"</expressao>
+    <expressao>"Guyane"</expressao>
+    <expressao>"General Leclerc"</expressao>
+    <expressao>"French troops"</expressao>
+    <expressao>"Louisiana Purchase"</expressao>
+    <expressao>"Louis Antoine"</expressao>
+    <expressao>"Jacques Louis David"</expressao>
+    <expressao>"Bourbon restoration"</expressao>
+    <expressao>"Pope Pius VII"</expressao>
+    <expressao>"Ludwig van Beethoven"</expressao>
+    <expressao>"Third Coalition"</expressao>
+    <expressao>"Karl Mack"</expressao>
+    <expressao>"Battle of Ulm"</expressao>
+    <expressao>"Pratzen Heights"</expressao>
+    <expressao>"Marshal Davout"</expressao>
+    <expressao>"Marshal Soult"</expressao>
+    <expressao>"Hannibal"</expressao>
+    <expressao>"Bavaria"</expressao>
+    <expressao>"Germany"</expressao>
+    <expressao>"Frank McLynn"</expressao>
+    <expressao>"Vincent Cronin"</expressao>
+    <expressao>"Berlin"</expressao>
+    <expressao>"Napoleonic warfare"</expressao>
+    <expressao>"Battle of Eylau"</expressao>
+    <expressao>"Poland"</expressao>
+    <expressao>"Portugal"</expressao>
+    <expressao>"Oranges"</expressao>
+    <expressao>"Joseph Bonaparte"</expressao>
+    <expressao>"Marshal Murat"</expressao>
+    <expressao>"Madrid"</expressao>
+    <expressao>"Finland"</expressao>
+    <expressao>"Sweden"</expressao>
+    <expressao>"Battle of Corunna"</expressao>
+    <expressao>"Wellington"</expressao>
+    <expressao>"Horace Vernet"</expressao>
+    <expressao>"Znaim"</expressao>
+    <expressao>"French invasion of Russia"</expressao>
+    <expressao>"Juan Cole"</expressao>
+    <expressao>"Prophet Muhammad"</expressao>
+    <expressao>"St Helena"</expressao>
+    <expressao>"Spanish Inquisition"</expressao>
+    <expressao>"Socrates"</expressao>
+    <expressao>"Second Consul"</expressao>
+    <expressao>"Duchy of Warsaw"</expressao>
+    <expressao>"Warsaw"</expressao>
+    <expressao>"Smolensk"</expressao>
+    <expressao>"Louisiana"</expressao>
+    <expressao>"Battle of Borodino"</expressao>
+    <expressao>"Thomas Jefferson"</expressao>
+    <expressao>"Francisco Goya"</expressao>
+    <expressao>"Joseph Franque"</expressao>
+    <expressao>"Louis Philippe"</expressao>
+    <expressao>"Hitler"</expressao>
+    <expressao>"Merry Joseph Blondel"</expressao>
+    <expressao>"Egyptian campaign"</expressao>
+    <expressao>"Dresden"</expressao>
+    <expressao>"Savoy"</expressao>
+    <expressao>"Netherlands"</expressao>
+    <expressao>"Adolf Hitler"</expressao>
+    <expressao>"Claude Ribbe"</expressao>
+    <expressao>"Sten Forshufvud"</expressao>
+    <expressao>"Russian campaign"</expressao>
+    <expressao>"Ben Weider"</expressao>
+    <expressao>"Antoine Henri Jomini"</expressao>
+    <expressao>"Walcheren Campaign"</expressao>
+    <expressao>"Martin van Creveld"</expressao>
+    <expressao>"Religions"</expressao>
+    <expressao>"Jesus"</expressao>
+    <expressao>"Lorde"</expressao>
+    <expressao>"Grenoble"</expressao>
+    <expressao>"Walcheren Campaign	"</expressao>
+    <expressao>"Jean Baptiste Debret"</expressao>
+    <expressao>"Solomon"</expressao>
+    <expressao>"Napoleon II"</expressao>
+    <expressao>"American history"</expressao>
+    <expressao>"Hudson Lowe"</expressao>
+    <expressao>"Plato"</expressao>
+    <expressao>"Adolph Northen"</expressao>
+    <expressao>"Dominican Republic"</expressao>
+    <expressao>"Canadian province"</expressao>
+    <expressao>"Moscow"</expressao>
+    <expressao>"Borodino"</expressao>
+    <expressao>"Marriages"</expressao>
+    <expressao>"Empress Marie Louise"</expressao>
+    <expressao>"Vilnius"</expressao>
+    <expressao>"Esplanade des Invalides"</expressao>
+    <expressao>"Louis Visconti"</expressao>
+    <expressao>"Cleopatra"</expressao>
+    <expressao>"Battle of Dresden"</expressao>
+    <expressao>"Haitian Revolution"</expressao>
+    <expressao>"Inquisition"</expressao>
+    <expressao>"Belgium"</expressao>
+    <expressao>"David G. Chandler"</expressao>
+    <expressao>"Duke of Reichstadt"</expressao>
+    <expressao>"Louis Marchand"</expressao>
+    <expressao>"Napoleon III"</expressao>
+    <expressao>"Jacques Antoine Hippolyte"</expressao>
+    <expressao>"Paul Delaroche"</expressao>
+    <expressao>"McConachy"</expressao>
+    <expressao>"Emperor Napoleon"</expressao>
+    <expressao>"Muhammad"</expressao>
+    <expressao>"Alfred Adler"</expressao>
+    <expressao>"Metternich"</expressao>
+    <expressao>"United Kingdom"</expressao>
+    <expressao>"Duke of Wellington"</expressao>
+    <expressao>"Operation Iraqi Liberation"</expressao>
+    <expressao>"Yangon"</expressao>
+    <expressao>"Leipzig"</expressao>
+    <expressao>"Vesak"</expressao>
+    <expressao>"Abadan, Iran"</expressao>
+    <expressao>"President Woodrow Wilson"</expressao>
+    <expressao>"Wuhan"</expressao>
+    <expressao>"Caesar"</expressao>
+    <expressao>"Jacques-Louis David"</expressao>
+    <expressao>"Turkey"</expressao>
+    <expressao>"Cleopatra"</expressao>
+    <expressao>"Harry S. Truman"</expressao>
+    <expressao>"Operation Rolling Thunder"</expressao>
+    <expressao>"Samoa"</expressao>
+    <expressao>"North Koreans"</expressao>
+    <expressao>"Eleftherios Venizelos"</expressao>
+    <expressao>"Iraqi militias"</expressao>
+    <expressao>"Abadan"</expressao>
+    <expressao>"Dresden"</expressao>
+    <expressao>"San Diego"</expressao>
+    <expressao>"United Nations Security Council"</expressao>
+    <expressao>"Pope Pius VI"</expressao>
+    <expressao>"Liuzhou"</expressao>
+    <expressao>"Dobro Pole"</expressao>
+    <expressao>"Presidency of Dwight D. Eisenhower"</expressao>
+    <expressao>"Yalta"</expressao>
+    <expressao>"Antoine Pierre Joseph Marie Barnave"</expressao>
+    <expressao>"Philadelphia campaign"</expressao>
+    <expressao>"Bosnia and Herzegovina"</expressao>
+    <expressao>"Shandong"</expressao>
+    <expressao>"North Korean"</expressao>
+    <expressao>"Moscow"</expressao>
+    <expressao>"Reinhard Scheer"</expressao>
+    <expressao>"Montenotte Campaign"</expressao>
+    <expressao>"Alexandria"</expressao>
+    <expressao>"Lebanon"</expressao>
+    <expressao>"Prague"</expressao>
+    <expressao>"Battle of Taejon"</expressao>
+    <expressao>"Walt Rostow"</expressao>
+    <expressao>"William II of Prussia"</expressao>
+    <expressao>"Sinai and Palestine Campaign"</expressao>
+    <expressao>"Louis Marchand"</expressao>
+    <expressao>"Australia"</expressao>
+    <expressao>"USSR"</expressao>
+    <expressao>"Federal government of the United States"</expressao>
+    <expressao>"Winston Churchill"</expressao>
+    <expressao>"Battle of Bunker Hill"</expressao>
+    <expressao>"Marshal Soult"</expressao>
+    <expressao>"Yan Xishan"</expressao>
+    <expressao>"Baton Rouge"</expressao>
+    <expressao>"Battle of Brandywine"</expressao>
+    <expressao>"Rasputin"</expressao>
+    <expressao>"French troops"</expressao>
+    <expressao>"French military"</expressao>
+    <expressao>"Battle of Oriskany"</expressao>
+    <expressao>"Marshall Islands"</expressao>
+    <expressao>"Armenian national liberation movement"</expressao>
+    <expressao>"Battle of Inchon"</expressao>
+    <expressao>"Prime Minister Gordon Brown"</expressao>
+    <expressao>"Christmas"</expressao>
+    <expressao>"Ayatollah Khomeini"</expressao>
+    <expressao>"General Lafayette"</expressao>
+    <expressao>"Bourrienne"</expressao>
+    <expressao>"Tuileries Palace"</expressao>
+    <expressao>"Leningrad Oblast"</expressao>
+    <expressao>"Zagros Mountains"</expressao>
+    <expressao>"Holy Roman Emperor Leopold II"</expressao>
+    <expressao>"Vienna"</expressao>
+    <expressao>"Long March"</expressao>
+    <expressao>"Fourth Crusade"</expressao>
+    <expressao>"Battle of Ulm"</expressao>
+    <expressao>"DPRK"</expressao>
+    <expressao>"Benjamin Franklin"</expressao>
+    <expressao>"President Diem"</expressao>
+    <expressao>"Qingdao"</expressao>
+    <expressao>"President Richard Nixon"</expressao>
+    <expressao>"Second Battle of Ypres"</expressao>
+    <expressao>"New Mexico"</expressao>
+    <expressao>"Dalmatia"</expressao>
+    <expressao>"Oskar Grippenberg"</expressao>
+    <expressao>"Genoa"</expressao>
+    <expressao>"Ottomans"</expressao>
+    <expressao>"Central Plains War"</expressao>
+    <expressao>"February Revolution"</expressao>
+    <expressao>"Movses Silikyan"</expressao>
+    <expressao>"Spain"</expressao>
+    <expressao>"Canadian soldiers"</expressao>
+    <expressao>"Baron von Steuben"</expressao>
+    <expressao>"Belarus"</expressao>
+    <expressao>"Operation Iraqi Freedom"</expressao>
+    <expressao>"Thessaloniki"</expressao>
+    <expressao>"Eisenhower"</expressao>
+    <expressao>"Monarchy of Spain"</expressao>
+    <expressao>"Kevin Buckley"</expressao>
+    <expressao>"General William Howe"</expressao>
+    <expressao>"Operation Prime Chance"</expressao>
+    <expressao>"Wayne State University"</expressao>
+    <expressao>"1950 FIFA World Cup"</expressao>
+    <expressao>"Battle of Cannae"</expressao>
+    <expressao>"War of the Fifth Coalition"</expressao>
+    <expressao>"Nivelle Offensive"</expressao>
+    <expressao>"Scipio Aemilianus"</expressao>
+    <expressao>"Vimy Ridge"</expressao>
+    <expressao>"Changchun"</expressao>
+    <expressao>"Franco-Prussian War"</expressao>
+    <expressao>"Baltic Sea"</expressao>
+    <expressao>"Joseph Bonaparte"</expressao>
+    <expressao>"Nixon"</expressao>
+    <expressao>"Richard Nixon"</expressao>
+    <expressao>"Second Punic War"</expressao>
+    <expressao>"South Africa"</expressao>
+    <expressao>"Religion"</expressao>
+    <expressao>"Fifth Coalition"</expressao>
+    <expressao>"Louisiana Purchase"</expressao>
+    <expressao>"Hannibal"</expressao>
+    <expressao>"David Petraeus"</expressao>
+    <expressao>"Francisco Goya"</expressao>
+    <expressao>"Antoine Henri Jomini"</expressao>
+    <expressao>"UAE"</expressao>
+    <expressao>"Tunisia"</expressao>
+    <expressao>"Kent State killings"</expressao>
+    <expressao>"Italy"</expressao>
+    <expressao>"Private militias in Iraq"</expressao>
+    <expressao>"Mussolini"</expressao>
+    <expressao>"Prussia"</expressao>
+    <expressao>"Canadian Armed Forces"</expressao>
+    <expressao>"Claire Lacombe"</expressao>
+    <expressao>"Operation Georgette"</expressao>
+    <expressao>"Trincomalee"</expressao>
+    <expressao>"Islamic Emirate of Afghanistan"</expressao>
+    <expressao>"Black Day"</expressao>
+    <expressao>"Louis Philippe"</expressao>
+    <expressao>"Sten Forshufvud"</expressao>
+    <expressao>"Second Consul"</expressao>
+    <expressao>"Leningrad region"</expressao>
+    <expressao>"Guadeloupe"</expressao>
+    <expressao>"Josip Broz Tito"</expressao>
+    <expressao>"Paul Revere"</expressao>
+    <expressao>"Isonzo front"</expressao>
+    <expressao>"Task Force Smith"</expressao>
+    <expressao>"North Carolina"</expressao>
+    <expressao>"Socrates"</expressao>
+    <expressao>"War of the Second Coalition"</expressao>
+    <expressao>"Jerusalem"</expressao>
+    <expressao>"Julius Caesar"</expressao>
+    <expressao>"Libya"</expressao>
+    <expressao>"Germany"</expressao>
+    <expressao>"Singapore"</expressao>
+    <expressao>"Silesia"</expressao>
+    <expressao>"Verona"</expressao>
+    <expressao>"Battle of Osan"</expressao>
+    <expressao>"Vladivostok"</expressao>
+    <expressao>"Shantou"</expressao>
+    <expressao>"France"</expressao>
+    <expressao>"Mao Zedong"</expressao>
+    <expressao>"Marriage"</expressao>
+    <expressao>"Sitzkrieg"</expressao>
+    <expressao>"Berlin"</expressao>
+    <expressao>"First Phase Offensive"</expressao>
+    <expressao>"Zhou Enlai"</expressao>
+    <expressao>"Daejeon"</expressao>
+    <expressao>"Walcheren Campaign	"</expressao>
+    <expressao>"Kent State shootings"</expressao>
+    <expressao>"Trieste"</expressao>
+    <expressao>"Russia"</expressao>
+    <expressao>"Syria"</expressao>
+    <expressao>"Tsingtao"</expressao>
+    <expressao>"Battles of the Isonzo"</expressao>
+    <expressao>"Kirkuk"</expressao>
+    <expressao>"Lausanne"</expressao>
+    <expressao>"Adolph Northen"</expressao>
+    <expressao>"Barack Obama"</expressao>
+    <expressao>"LBJ"</expressao>
+    <expressao>"Antoine-Henri Jomini"</expressao>
+    <expressao>"United States"</expressao>
+    <expressao>"Jean Joseph Mounier"</expressao>
+    <expressao>"Wilhelm II, German Emperor"</expressao>
+    <expressao>"Iraq invasion"</expressao>
+    <expressao>"Hawaii"</expressao>
+    <expressao>"First Battle of Fallujah"</expressao>
+    <expressao>"Woodrow Wilson"</expressao>
+    <expressao>"Gades"</expressao>
+    <expressao>"Bitola"</expressao>
+    <expressao>"Woodstock"</expressao>
+    <expressao>"Chiang Kai-shek"</expressao>
+    <expressao>"Voltaire"</expressao>
+    <expressao>"Ruhollah Khomeini"</expressao>
+    <expressao>"Falkland Islands"</expressao>
+    <expressao>"Napoleonic warfare"</expressao>
+    <expressao>"Klemens von Metternich"</expressao>
+    <expressao>"New Zealand"</expressao>
+    <expressao>"Second Pacific Squadron"</expressao>
+    <expressao>"Batumi"</expressao>
+    <expressao>"Yang Hucheng"</expressao>
+    <expressao>"American government"</expressao>
+    <expressao>"England"</expressao>
+    <expressao>"Turkish Independence War"</expressao>
+    <expressao>"Operation Khaibar"</expressao>
+    <expressao>"Montenegro"</expressao>
+    <expressao>"Saint Helena"</expressao>
+    <expressao>"Kuroki Tamemoto"</expressao>
+    <expressao>"Jersey City"</expressao>
+    <expressao>"St Helena"</expressao>
+    <expressao>"Austro Hungarian Empire"</expressao>
+    <expressao>"Mukden"</expressao>
+    <expressao>"Portugal"</expressao>
+    <expressao>"Dalmatian coast"</expressao>
+    <expressao>"President Lyndon B. Johnson"</expressao>
+    <expressao>"Frequent Wind"</expressao>
+    <expressao>"Marshal Josip Broz Tito"</expressao>
+    <expressao>"UN Offensive"</expressao>
+    <expressao>"Petraeus"</expressao>
+    <expressao>"Operation Nimble Archer"</expressao>
+    <expressao>"Ethan Allen"</expressao>
+    <expressao>"Canada"</expressao>
+    <expressao>"ROK"</expressao>
+    <expressao>"Maria Letizia Ramolino"</expressao>
+    <expressao>"New York"</expressao>
+    <expressao>"Ian Standish Monteith Hamilton"</expressao>
+    <expressao>"National Constituent Assembly"</expressao>
+    <expressao>"Palestinians"</expressao>
+    <expressao>"Axis troops"</expressao>
+    <expressao>"Benito Mussolini"</expressao>
+    <expressao>"Soviet Red Army"</expressao>
+    <expressao>"Mao"</expressao>
+    <expressao>"George W. Casey, Jr."</expressao>
+    <expressao>"Chiang Kai Shek"</expressao>
+    <expressao>"Duke of Wellington"</expressao>
+    <expressao>"Provisional National Government of the Southwestern Caucasus"</expressao>
+    <expressao>"Republic of South Vietnam"</expressao>
+    <expressao>"Esplanade des Invalides"</expressao>
+    <expressao>"Presidency of Richard Nixon"</expressao>
+    <expressao>"Spring Offensive"</expressao>
+    <expressao>"Taliban government"</expressao>
+    <expressao>"Second Taiwan Strait Crisis"</expressao>
+    <expressao>"Jacques Necker"</expressao>
+    <expressao>"Arthur Currie"</expressao>
+    <expressao>"Peninsular War"</expressao>
+    <expressao>"Toulon"</expressao>
+    <expressao>"Jacques Antoine Hippolyte, Comte de Guibert"</expressao>
+    <expressao>"Wang Jingwei"</expressao>
+    <expressao>"War of the Fourth Coalition"</expressao>
+    <expressao>"Norwegian campaign"</expressao>
+    <expressao>"Feng Yuxiang"</expressao>
+    <expressao>"William Westmoreland"</expressao>
+    <expressao>"Kohima"</expressao>
+    <expressao>"Cambodia"</expressao>
+    <expressao>"General Horatio Gates"</expressao>
+    <expressao>"Lyndon Johnson"</expressao>
+    <expressao>"California"</expressao>
+    <expressao>"Jury trials"</expressao>
+    <expressao>"Battle of Austerlitz"</expressao>
+    <expressao>"Nova Scotia"</expressao>
+    <expressao>"Vietnam"</expressao>
+    <expressao>"Mediterranean Sea"</expressao>
+    <expressao>"Ohio"</expressao>
+    <expressao>"Petrograd"</expressao>
+    <expressao>"Pyongyang"</expressao>
+    <expressao>"Saudi Arabia"</expressao>
+    <expressao>"Battle of Liaoyang"</expressao>
+    <expressao>"Battle of Caporetto"</expressao>
+    <expressao>"General Walker"</expressao>
+    <expressao>"Zagreb"</expressao>
+    <expressao>"Blanc Mont Ridge"</expressao>
+    <expressao>"Netherlands"</expressao>
+    <expressao>"Guadalcanal Campaign"</expressao>
+    <expressao>"Saigon"</expressao>
+    <expressao>"Julian Byng, 1st Viscount Byng of Vimy"</expressao>
+    <expressao>"Battle of Sardarabad"</expressao>
+    <expressao>"Rome"</expressao>
+    <expressao>"Shandong province"</expressao>
+    <expressao>"Thomas Gage"</expressao>
+    <expressao>"Battle of Blue Licks"</expressao>
+    <expressao>"John F. Kennedy"</expressao>
+    <expressao>"Washington, D.C."</expressao>
+    <expressao>"Richard Cosway"</expressao>
+    <expressao>"Saddam"</expressao>
+    <expressao>"General Yudenich"</expressao>
+    <expressao>"Third Battle of Ypres"</expressao>
+    <expressao>"Canadian province"</expressao>
+    <expressao>"Louis-Nicolas Davout"</expressao>
+    <expressao>"General Gage"</expressao>
+    <expressao>"Tokyo"</expressao>
+    <expressao>"General Marshall"</expressao>
+    <expressao>"Maximilien Robespierre"</expressao>
+    <expressao>"Louis D. Fancher"</expressao>
+    <expressao>"Battle of Cowpens"</expressao>
+    <expressao>"Jean Baptiste Carrier"</expressao>
+    <expressao>"Republic of China"</expressao>
+    <expressao>"Battle of the Lys (1918)"</expressao>
+    <expressao>"Azerbaijan"</expressao>
+    <expressao>"Brazil"</expressao>
+    <expressao>"Tonkin incident"</expressao>
+    <expressao>"Frank McLynn"</expressao>
+    <expressao>"Hiroshima"</expressao>
+    <expressao>"Assam"</expressao>
+    <expressao>"Sir Arthur Currie"</expressao>
+    <expressao>"Operation Crusader"</expressao>
+    <expressao>"Hungary"</expressao>
+    <expressao>"Da Nang"</expressao>
+    <expressao>"Napoleon Bonaparte"</expressao>
+    <expressao>"Harry Truman"</expressao>
+    <expressao>"Battle of Dresden"</expressao>
+    <expressao>"Louis Antoine Fauvelet de Bourrienne"</expressao>
+    <expressao>"Haifa"</expressao>
+    <expressao>"Prince Norodom Sihanouk"</expressao>
+    <expressao>"French Consulate"</expressao>
+    <expressao>"Dezful"</expressao>
+    <expressao>"Quebec"</expressao>
+    <expressao>"Taiwan"</expressao>
+    <expressao>"Robert Gates"</expressao>
+    <expressao>"Claude Ribbe"</expressao>
+    <expressao>"War of the Third Coalition"</expressao>
+    <expressao>"Arthur Wellesley, 1st Duke of Wellington"</expressao>
+    <expressao>"First Taiwan Strait crisis"</expressao>
+    <expressao>"Taejeon"</expressao>
+    <expressao>"Albert Camus"</expressao>
+    <expressao>"Operation Michael"</expressao>
+    <expressao>"Provinces and territories of Canada"</expressao>
+    <expressao>"Paul Wolfowitz"</expressao>
+    <expressao>"Algeria"</expressao>
+    <expressao>"Walt Whitman Rostow"</expressao>
+    <expressao>"Iraqi invasion"</expressao>
+    <expressao>"Daniel Morgan"</expressao>
+    <expressao>"Serbia"</expressao>
+    <expressao>"South Korea"</expressao>
+    <expressao>"Karl Mack"</expressao>
+    <expressao>"Kuropatkin"</expressao>
+    <expressao>"Battle of Leyte Gulf"</expressao>
+    <expressao>"Project GAMMA"</expressao>
+    <expressao>"Battle of Tunis"</expressao>
+    <expressao>"Jury trial"</expressao>
+    <expressao>"Robespierre"</expressao>
+    <expressao>"President Dwight D. Eisenhower"</expressao>
+    <expressao>"Battle of Corunna"</expressao>
+    <expressao>"Operation Menu"</expressao>
+    <expressao>"Operation Red Dawn"</expressao>
+    <expressao>"Austria"</expressao>
+    <expressao>"Palestine Campaign"</expressao>
+    <expressao>"Battle of Bennington"</expressao>
+    <expressao>"Hanoi"</expressao>
+    <expressao>"Norwegian Campaign"</expressao>
+    <expressao>"United States Navy"</expressao>
+    <expressao>"Louis XVI of France"</expressao>
+    <expressao>"Napoleon III"</expressao>
+    <expressao>"Busan"</expressao>
+    <expressao>"American colonists"</expressao>
+    <expressao>"Marie Louise, Duchess of Parma"</expressao>
+    <expressao>"General George Casey"</expressao>
+    <expressao>"Sweden"</expressao>
+    <expressao>"Weimar Republic"</expressao>
+    <expressao>"Gerald Ford"</expressao>
+    <expressao>"King of Spain"</expressao>
+    <expressao>"Battle of Wagram"</expressao>
+    <expressao>"Warsaw"</expressao>
+    <expressao>"Leningrad"</expressao>
+    <expressao>"Commonwealth of the Philippines"</expressao>
+    <expressao>"India"</expressao>
+    <expressao>"Paul Bremer"</expressao>
+    <expressao>"San Francisco"</expressao>
+    <expressao>"Philippines"</expressao>
+    <expressao>"Battle of Dong Xoai"</expressao>
+    <expressao>"Ho Chi Minh City"</expressao>
+    <expressao>"Alfred Adler"</expressao>
+    <expressao>"Jacques Antoine Hippolyte"</expressao>
+    <expressao>"President Truman"</expressao>
+    <expressao>"Battle of Dobro Pole"</expressao>
+    <expressao>"General Westmoreland"</expressao>
+    <expressao>"Sherif Hussein of Mecca"</expressao>
+    <expressao>"History of the United States"</expressao>
+    <expressao>"Charles Cornwallis, 1st Marquess Cornwallis"</expressao>
+    <expressao>"Division of Korea"</expressao>
+    <expressao>"Elba"</expressao>
+    <expressao>"Horace Vernet"</expressao>
+    <expressao>"Kennedy administration"</expressao>
+    <expressao>"Prince Max, Duke in Bavaria"</expressao>
+    <expressao>"Pensacola, Florida"</expressao>
+    <expressao>"Juan Cole"</expressao>
+    <expressao>"Nantes"</expressao>
+    <expressao>"United States President Barack Obama"</expressao>
+    <expressao>"Battle of Port Arthur"</expressao>
+    <expressao>"Stalingrad"</expressao>
+    <expressao>"American Friends of Vietnam"</expressao>
+    <expressao>"Hunan"</expressao>
+    <expressao>"Aleksey Kuropatkin"</expressao>
+    <expressao>"Iraq"</expressao>
+    <expressao>"Battle of Agrigentum"</expressao>
+    <expressao>"Maxwell Taylor"</expressao>
+    <expressao>"China PRC"</expressao>
+    <expressao>"Italian Social Republic"</expressao>
+    <expressao>"Pusan Perimeter"</expressao>
+    <expressao>"Constantinople"</expressao>
+    <expressao>"Philadelphia"</expressao>
+    <expressao>"Second Sino-Japanese War"</expressao>
+    <expressao>"Napoleonic Wars"</expressao>
+    <expressao>"Florida"</expressao>
+    <expressao>"Nanjing"</expressao>
+    <expressao>"Jacques Roux"</expressao>
+    <expressao>"Lithuania"</expressao>
+    <expressao>"Bucharest"</expressao>
+    <expressao>"Artillery"</expressao>
+    <expressao>"Fao"</expressao>
+    <expressao>"Abu Musab al-Zarqawi"</expressao>
+    <expressao>"Ho Chi Minh"</expressao>
+    <expressao>"Gulf of Tonkin incident"</expressao>
+    <expressao>"Togo"</expressao>
+    <expressao>"Third Punic War"</expressao>
+    <expressao>"Egypt"</expressao>
+    <expressao>"Battle of Borodino"</expressao>
+    <expressao>"Duchy of Warsaw"</expressao>
+    <expressao>"Iranian Revolution"</expressao>
+    <expressao>"Desmoulins"</expressao>
+    <expressao>"Stalin"</expressao>
+    <expressao>"President Reagan"</expressao>
+    <expressao>"General Clinton"</expressao>
+    <expressao>"French invasion of Russia"</expressao>
+    <expressao>"Spanish Inquisition"</expressao>
+    <expressao>"Leopold II, Holy Roman Emperor"</expressao>
+    <expressao>"Camille Desmoulins"</expressao>
+    <expressao>"Kwantung Army"</expressao>
+    <expressao>"Baton Rouge, Louisiana"</expressao>
+    <expressao>"Hamilcar Barca"</expressao>
+    <expressao>"Mediterranean"</expressao>
+    <expressao>"Gibraltar"</expressao>
+    <expressao>"General Foch"</expressao>
+    <expressao>"First Punic War"</expressao>
+    <expressao>"Battle of Sarikamish"</expressao>
+    <expressao>"Presidency of George W. Bush"</expressao>
+    <expressao>"USA"</expressao>
+    <expressao>"Stanley Karnow"</expressao>
+    <expressao>"Empress Marie Louise"</expressao>
+    <expressao>"Gazala Line"</expressao>
+    <expressao>"John Paul Jones"</expressao>
+    <expressao>"Medina"</expressao>
+    <expressao>"Arizona"</expressao>
+    <expressao>"Tovmas Nazarbekian"</expressao>
+    <expressao>"President Wilson"</expressao>
+    <expressao>"Grigori Rasputin"</expressao>
+    <expressao>"Augustin Robespierre"</expressao>
+    <expressao>"William Howe, 5th Viscount Howe"</expressao>
+    <expressao>"Roger Ducos"</expressao>
+    <expressao>"Soviet Union"</expressao>
+    <expressao>"Colonial history of the United States"</expressao>
+    <expressao>"Fall of Saigon"</expressao>
+    <expressao>"Russians"</expressao>
+    <expressao>"French Revolution"</expressao>
+    <expressao>"Finland"</expressao>
+    <expressao>"First Taiwan Strait Crisis"</expressao>
+    <expressao>"Bratislava"</expressao>
+    <expressao>"Democratic Republic of Vietnam"</expressao>
+    <expressao>"Marshal Murat"</expressao>
+    <expressao>"Baku"</expressao>
+    <expressao>"Thailand"</expressao>
+    <expressao>"Vietnam War"</expressao>
+    <expressao>"Tehran"</expressao>
+    <expressao>"Budapest"</expressao>
+    <expressao>"Friedrich Wilhelm von Steuben"</expressao>
+    <expressao>"Prophet Muhammad"</expressao>
+    <expressao>"Burma"</expressao>
+    <expressao>"Les Invalides"</expressao>
+    <expressao>"Nile"</expressao>
+    <expressao>"President Nixon"</expressao>
+    <expressao>"Battle of Waterloo"</expressao>
+    <expressao>"Messina"</expressao>
+    <expressao>"Moonlight Battle"</expressao>
+    <expressao>"John Kenneth Galbraith"</expressao>
+    <expressao>"Hunan Province"</expressao>
+    <expressao>"Battle of Shubra Khit"</expressao>
+    <expressao>"Iran"</expressao>
+    <expressao>"Toussaint Louverture"</expressao>
+    <expressao>"Carpathian mountains"</expressao>
+    <expressao>"Benedict Arnold"</expressao>
+    <expressao>"Grippenberg"</expressao>
+    <expressao>"Ulm Campaign"</expressao>
+    <expressao>"Li Zongren"</expressao>
+    <expressao>"Ukraine"</expressao>
+    <expressao>"Tunis"</expressao>
+    <expressao>"Grenoble"</expressao>
+    <expressao>"Dutch East Indies"</expressao>
+    <expressao>"Admiral Vitgeft"</expressao>
+    <expressao>"Jesus"</expressao>
+    <expressao>"French Guiana"</expressao>
+    <expressao>"Thomas Paine"</expressao>
+    <expressao>"John J. Pershing"</expressao>
+    <expressao>"Brest Litovsk"</expressao>
+    <expressao>"Texas"</expressao>
+    <expressao>"Irkutsk"</expressao>
+    <expressao>"North Vietnam"</expressao>
+    <expressao>"Tobruk"</expressao>
+    <expressao>"Paul Hardcastle"</expressao>
+    <expressao>"Znojmo"</expressao>
+    <expressao>"Jean Sylvain Bailly"</expressao>
+    <expressao>"Carpathian Mountains"</expressao>
+    <expressao>"Siege of Yorktown"</expressao>
+    <expressao>"Xiamen"</expressao>
+    <expressao>"The Bahamas"</expressao>
+    <expressao>"First Consul"</expressao>
+    <expressao>"Battle of Cape St. Vincent (1780)"</expressao>
+    <expressao>"Madame Roland"</expressao>
+    <expressao>"Suwon"</expressao>
+    <expressao>"Oranges"</expressao>
+    <expressao>"China"</expressao>
+    <expressao>"Axis Powers"</expressao>
+    <expressao>"Moldova"</expressao>
+    <expressao>"George Washington"</expressao>
+    <expressao>"General Bonaparte"</expressao>
+    <expressao>"Marshal Davout"</expressao>
+    <expressao>"French State"</expressao>
+    <expressao>"Adolf Hitler"</expressao>
+    <expressao>"Incheon"</expressao>
+    <expressao>"Operation Linebacker II"</expressao>
+    <expressao>"Chuncheon"</expressao>
+    <expressao>"Damascus"</expressao>
+    <expressao>"Battle of Valcour Island"</expressao>
+    <expressao>"Siege of Tsingtao"</expressao>
+    <expressao>"Cornwallis"</expressao>
+    <expressao>"Second Battle of Fallujah"</expressao>
+    <expressao>"Nixon administration"</expressao>
+    <expressao>"Chicago"</expressao>
+    <expressao>"General Kuropatkin"</expressao>
+    <expressao>"Sihanouk"</expressao>
+    <expressao>"General Washington"</expressao>
+    <expressao>"Osama bin Laden"</expressao>
+    <expressao>"Vichy France"</expressao>
+    <expressao>"Chosin Reservoir"</expressao>
+    <expressao>"President Eisenhower"</expressao>
+    <expressao>"Mary (mother of Jesus)"</expressao>
+    <expressao>"Robert McNamara"</expressao>
+    <expressao>"Gordon Brown"</expressao>
+    <expressao>"Norodom Sihanouk"</expressao>
+    <expressao>"Georges Danton"</expressao>
+    <expressao>"Kuroki Itei"</expressao>
+    <expressao>"Armenia"</expressao>
+    <expressao>"Robert Nivelle"</expressao>
+    <expressao>"Pensacola"</expressao>
+    <expressao>"Operation Commando Hunt"</expressao>
+    <expressao>"General Leclerc"</expressao>
+    <expressao>"UK"</expressao>
+    <expressao>"Battle of Ap Bac"</expressao>
+    <expressao>"Abu Musab al Zarqawi"</expressao>
+    <expressao>"Mignet"</expressao>
+    <expressao>"Northwest Indian War"</expressao>
+    <expressao>"L. Paul Bremer"</expressao>
+    <expressao>"Kermanshah"</expressao>
+    <expressao>"Battle of Shaho"</expressao>
+    <expressao>"Washington D.C."</expressao>
+    <expressao>"George Marshall"</expressao>
+    <expressao>"Belgium"</expressao>
+    <expressao>"Horatio Nelson, 1st Viscount Nelson"</expressao>
+    <expressao>"Huaihai Campaign"</expressao>
+    <expressao>"Axis powers"</expressao>
+    <expressao>"General Howe"</expressao>
+    <expressao>"Security Council"</expressao>
+    <expressao>"Bavaria"</expressao>
+    <expressao>"Khomeini"</expressao>
+    <expressao>"Shanghai"</expressao>
+    <expressao>"Horatio Nelson"</expressao>
+    <expressao>"Japanese Kwantung Army"</expressao>
+    <expressao>"PRC"</expressao>
+    <expressao>"Henry Cabot Lodge"</expressao>
+    <expressao>"Fatherland Liberation War"</expressao>
+    <expressao>"Julian Byng"</expressao>
+    <expressao>"Clark McConachy"</expressao>
+    <expressao>"Roumania"</expressao>
+    <expressao>"Battle of Cer"</expressao>
+    <expressao>"Nagasaki"</expressao>
+    <expressao>"Michael VIII Palaeologus"</expressao>
+    <expressao>"Japanese archipelago"</expressao>
+    <expressao>"Russian Revolution"</expressao>
+    <expressao>"Western Samoa"</expressao>
+    <expressao>"Battle of Tsushima"</expressao>
+    <expressao>"Connecticut"</expressao>
+    <expressao>"Jinan"</expressao>
+    <expressao>"Padua"</expressao>
+    <expressao>"Jamaica"</expressao>
+    <expressao>"Tet Offensive"</expressao>
+    <expressao>"Battle of Gazala"</expressao>
+    <expressao>"Battle of Incheon"</expressao>
+    <expressao>"Franklin D. Roosevelt"</expressao>
+    <expressao>"Battle of Passchendaele"</expressao>
+    <expressao>"Hengyang"</expressao>
+    <expressao>"Battle of Tsingtao"</expressao>
+    <expressao>"Islamic Revolution"</expressao>
+    <expressao>"Soviet troops"</expressao>
+    <expressao>"Hindenburg line"</expressao>
+    <expressao>"Maximilien de Robespierre"</expressao>
+    <expressao>"Manila"</expressao>
+    <expressao>"Tilsit"</expressao>
+    <expressao>"Second Sino Japanese War"</expressao>
+    <expressao>"Battle of Lake Trasimene"</expressao>
+    <expressao>"Long Island"</expressao>
+    <expressao>"Egyptian campaign"</expressao>
+    <expressao>"Mediterranean coast"</expressao>
+    <expressao>"Kharkov"</expressao>
+    <expressao>"George McGovern"</expressao>
+    <expressao>"Battle of Nanshan"</expressao>
+    <expressao>"Bahamas"</expressao>
+    <expressao>"John Kennedy"</expressao>
+    <expressao>"Franco Prussian War"</expressao>
+    <expressao>"Slovakia"</expressao>
+    <expressao>"Vilnius"</expressao>
+    <expressao>"Andranik"</expressao>
+    <expressao>"New Zealand Division"</expressao>
+    <expressao>"Vladimir Lenin"</expressao>
+    <expressao>"Ap Bac"</expressao>
+    <expressao>"Battle of Mojkovac"</expressao>
+    <expressao>"Ali"</expressao>
+    <expressao>"Baghdad"</expressao>
+    <expressao>"Lyndon B. Johnson"</expressao>
+    <expressao>"Walcheren Campaign"</expressao>
+    <expressao>"Henri Mignet"</expressao>
+    <expressao>"Louis XVIII"</expressao>
+    <expressao>"UN Security Council"</expressao>
+    <expressao>"Mexico"</expressao>
+    <expressao>"Russian Civil War"</expressao>
+    <expressao>"Henan"</expressao>
+    <expressao>"Allied expeditionary force"</expressao>
+    <expressao>"Iraq War"</expressao>
+    <expressao>"George Creel"</expressao>
+    <expressao>"Battle of Eylau"</expressao>
+    <expressao>"Chechnya"</expressao>
+    <expressao>"Henry Reuterdahl"</expressao>
+    <expressao>"Battle of Blanc Mont Ridge"</expressao>
+    <expressao>"Dr. Martin Luther King"</expressao>
+    <expressao>"Jacques Pierre Brissot"</expressao>
+    <expressao>"Mercenary War"</expressao>
+    <expressao>"Axis Power"</expressao>
+    <expressao>"Saratoga campaign"</expressao>
+    <expressao>"Robert F. Kennedy"</expressao>
+    <expressao>"Joseph Buttinger"</expressao>
+    <expressao>"First Macedonian War"</expressao>
+    <expressao>"Bourbon Restoration"</expressao>
+    <expressao>"Saloniki"</expressao>
+    <expressao>"Vincent Cronin"</expressao>
+    <expressao>"National Convention"</expressao>
+    <expressao>"Prince Sihanouk"</expressao>
+    <expressao>"Operation Killer"</expressao>
+    <expressao>"Bourbon restoration"</expressao>
+    <expressao>"Wellington"</expressao>
+    <expressao>"Ho Chi Minh Campaign"</expressao>
+    <expressao>"Saint Petersburg"</expressao>
+    <expressao>"Yokohama"</expressao>
+    <expressao>"North Korea"</expressao>
+    <expressao>"Iraqi Kurdistan"</expressao>
+    <expressao>"2003 invasion of Iraq"</expressao>
+    <expressao>"Pennsylvania"</expressao>
+    <expressao>"Hindenburg Line"</expressao>
+    <expressao>"Napoleone di Buonaparte"</expressao>
+    <expressao>"Minorca"</expressao>
+    <expressao>"Battle of Verdun"</expressao>
+    <expressao>"Korean question"</expressao>
+    <expressao>"Laos"</expressao>
+    <expressao>"Hunan province"</expressao>
+    <expressao>"Paris"</expressao>
+    <expressao>"Palestinian people"</expressao>
+    <expressao>"Croatia"</expressao>
+    <expressao>"Orange (fruit)"</expressao>
+    <expressao>"Quebec City"</expressao>
+    <expressao>"Iwo Jima"</expressao>
+    <expressao>"Luoyang"</expressao>
+    <expressao>"Enver Pasha"</expressao>
+    <expressao>"Battle of White Horse"</expressao>
+    <expressao>"Martin Gilbert"</expressao>
+    <expressao>"Hudson Lowe"</expressao>
+    <expressao>"Borodino"</expressao>
+    <expressao>"South Vietnam"</expressao>
+    <expressao>"United Arab Emirates"</expressao>
+    <expressao>"Food and Agriculture Organization"</expressao>
+    <expressao>"Louis Visconti"</expressao>
+    <expressao>"Saddam Hussein"</expressao>
+    <expressao>"Joachim Murat"</expressao>
+    <expressao>"Democratic Republic of Armenia"</expressao>
+    <expressao>"Tuileries"</expressao>
+    <expressao>"General John J. Pershing"</expressao>
+    <expressao>"Port Moresby"</expressao>
+    <expressao>"Inquisition"</expressao>
+    <expressao>"Jacques Louis David"</expressao>
+    <expressao>"Austro Hungary"</expressao>
+    <expressao>"Siege of Medina"</expressao>
+    <expressao>"Dutch Republic"</expressao>
+    <expressao>"Smolensk"</expressao>
+    <expressao>"Religions"</expressao>
+    <expressao>"Viet Nam"</expressao>
+    <expressao>"Ramadan"</expressao>
+    <expressao>"Operation Kheibar"</expressao>
+    <expressao>"Green Beret Affair"</expressao>
+    <expressao>"Ahvaz"</expressao>
+    <expressao>"Martin Luther King, Jr."</expressao>
+    <expressao>"Battle of Chosin Reservoir"</expressao>
+    <expressao>"Solomon"</expressao>
+    <expressao>"Rabaul"</expressao>
+    <expressao>"North Vietnamese"</expressao>
+    <expressao>"General William Westmoreland"</expressao>
+    <expressao>"Republic of Korea"</expressao>
+    <expressao>"Jay Garner"</expressao>
+    <expressao>"Japanese home islands"</expressao>
+    <expressao>"Pratzen Heights"</expressao>
+    <expressao>"U.S."</expressao>
+    <expressao>"Chechnyan"</expressao>
+    <expressao>"Plato"</expressao>
+    <expressao>"Stephen Spiro"</expressao>
+    <expressao>"Nagapattinam"</expressao>
+    <expressao>"Battle of Mukden"</expressao>
+    <expressao>"Negapatam"</expressao>
+    <expressao>"Napoleon"</expressao>
+    <expressao>"Turkish War of Independence"</expressao>
+    <expressao>"Kingdom of Galicia and Lodomeria"</expressao>
+    <expressao>"Brest, Belarus"</expressao>
+    <expressao>"Austria-Hungary"</expressao>
+    <expressao>"Manhattan"</expressao>
+    <expressao>"Montreal"</expressao>
+    <expressao>"Afghanistan"</expressao>
+    <expressao>"Jean-Baptiste Carrier"</expressao>
+    <expressao>"Adrien Duport"</expressao>
+    <expressao>"Virginia"</expressao>
+    <expressao>"Napoleon II"</expressao>
+    <expressao>"Battle of Cape Spartel"</expressao>
+    <expressao>"Ngo Dinh Diem"</expressao>
+    <expressao>"Battle of Vittorio Veneto"</expressao>
+    <expressao>"Northern Expedition"</expressao>
+    <expressao>"Red Army"</expressao>
+    <expressao>"Secretary of State James Baker"</expressao>
+    <expressao>"Austria Hungary"</expressao>
+    <expressao>"Jean-de-Dieu Soult"</expressao>
+    <expressao>"Lord George Germain"</expressao>
+    <expressao>"Battle of Trafalgar"</expressao>
+    <expressao>"Jean Baptiste Debret"</expressao>
+    <expressao>"White people"</expressao>
+    <expressao>"Massachusetts"</expressao>
+    <expressao>"Province of Quebec"</expressao>
+    <expressao>"Kingdom of Cambodia"</expressao>
+    <expressao>"Joseph Stalin"</expressao>
+    <expressao>"Bay of Pigs invasion"</expressao>
+    <expressao>"Zhangjiakou"</expressao>
+    <expressao>"Paul Delaroche"</expressao>
+    <expressao>"Republic of Turkey"</expressao>
+    <expressao>"Muhammad"</expressao>
+    <expressao>"Louisiana"</expressao>
+    <expressao>"Battle of Pusan Perimeter"</expressao>
+    <expressao>"Venice"</expressao>
+    <expressao>"Korean War"</expressao>
+    <expressao>"Shenyang"</expressao>
+    <expressao>"Operation Barbarossa"</expressao>
+    <expressao>"Battle of Binh Gia"</expressao>
+    <expressao>"Philippine Commonwealth"</expressao>
+    <expressao>"Kent State University"</expressao>
+    <expressao>"Prince Max of Baden"</expressao>
+    <expressao>"Clement Attlee"</expressao>
+    <expressao>"Louis XVI"</expressao>
+    <expressao>"Battle of Unsan"</expressao>
+    <expressao>"Batum"</expressao>
+    <expressao>"Romania"</expressao>
+    <expressao>"General David Petraeus"</expressao>
+    <expressao>"Chiang Kai shek"</expressao>
+    <expressao>"American Civil War"</expressao>
+    <expressao>"Shanghai massacre of 1927"</expressao>
+    <expressao>"Boston"</expressao>
+    <expressao>"Abdul Sattar Abu Risha"</expressao>
+    <expressao>"Arras"</expressao>
+    <expressao>"United Kingdom"</expressao>
+    <expressao>"Saarland"</expressao>
+    <expressao>"Horatio Gates"</expressao>
+    <expressao>"President Ronald Reagan"</expressao>
+    <expressao>"Battles of Saratoga"</expressao>
+    <expressao>"First Republic of Armenia"</expressao>
+    <expressao>"Greece"</expressao>
+    <expressao>"John Kerry"</expressao>
+    <expressao>"Mukden Incident"</expressao>
+    <expressao>"Jean-Baptiste Debret"</expressao>
+    <expressao>"Joseph Franque"</expressao>
+    <expressao>"Prince Max"</expressao>
+    <expressao>"Nanchang"</expressao>
+    <expressao>"George Germain, 1st Viscount Sackville"</expressao>
+    <expressao>"Zhang Xueliang"</expressao>
+    <expressao>"Mecca"</expressao>
+    <expressao>"Michael VIII Palaiologos"</expressao>
+    <expressao>"Philippe Leclerc de Hauteclocque"</expressao>
+    <expressao>"Karl Mack von Leiberich"</expressao>
+    <expressao>"Phoney War"</expressao>
+    <expressao>"Hussein bin Ali, Sharif of Mecca"</expressao>
+    <expressao>"Kentucky"</expressao>
+    <expressao>"Imphal"</expressao>
+    <expressao>"Guangxi"</expressao>
+    <expressao>"Madrid"</expressao>
+    <expressao>"Central Powers"</expressao>
+    <expressao>"War of the First Coalition"</expressao>
+    <expressao>"Prince Maximilian of Baden"</expressao>
+    <expressao>"Russian campaign"</expressao>
+    <expressao>"Lorde"</expressao>
+    <expressao>"Salonica"</expressao>
+    <expressao>"Slovenia"</expressao>
+    <expressao>"Henry Kissinger"</expressao>
+    <expressao>"Louis XVIII of France"</expressao>
+    <expressao>"Kuwait"</expressao>
+    <expressao>"Danton"</expressao>
+    <expressao>"Third Coalition"</expressao>
+    <expressao>"McConachy"</expressao>
+    <expressao>"Queen Marie Antoinette"</expressao>
+    <expressao>"Bay of Pigs Invasion"</expressao>
+    <expressao>"Mars"</expressao>
+    <expressao>"Third Taiwan Strait Crisis"</expressao>
+    <expressao>"Kharkiv"</expressao>
+    <expressao>"Vichy"</expressao>
+    <expressao>"Nicholas II of Russia"</expressao>
+    <expressao>"Haitian Revolution"</expressao>
+    <expressao>"Battle of Saratoga"</expressao>
+    <expressao>"Austrian Galicia"</expressao>
+    <expressao>"Pusan"</expressao>
+    <expressao>"Newsweek"</expressao>
+    <expressao>"Virgin Mary"</expressao>
+    <expressao>"Easter Offensive"</expressao>
+    <expressao>"Ludwig van Beethoven"</expressao>
+    <expressao>"Anna Chennault"</expressao>
+    <expressao>"Axis forces"</expressao>
+    <expressao>"Rangoon"</expressao>
+    <expressao>"Savoy"</expressao>
+    <expressao>"Battle of Sardarapat"</expressao>
+    <expressao>"Battle of Leipzig"</expressao>
+    <expressao>"Erich Ludendorff"</expressao>
+    <expressao>"Pope Pius VII"</expressao>
+    <expressao>"Tsar Nicholas II"</expressao>
+    <expressao>"Charlotte Corday"</expressao>
+    <expressao>"Gilbert du Motier, Marquis de Lafayette"</expressao>
+    <expressao>"South West Caucasian Republic"</expressao>
+    <expressao>"French forces"</expressao>
+    <expressao>"David G. Chandler"</expressao>
+    <expressao>"Battle of Britain"</expressao>
+    <expressao>"French Armed Forces"</expressao>
+    <expressao>"Kaiser Wilhelm II"</expressao>
+    <expressao>"First Coalition"</expressao>
+    <expressao>"Letizia Ramolino"</expressao>
+    <expressao>"Battle of Kings Mountain"</expressao>
+    <expressao>"Blue Licks"</expressao>
+    <expressao>"Thomas Jefferson"</expressao>
+    <expressao>"Provisional Revolutionary Government of the Republic of South Vietnam"</expressao>
+    <expressao>"George W. Bush"</expressao>
+    <expressao>"Edwin Walker"</expressao>
+    <expressao>"American Revolutionary War"</expressao>
+    <expressao>"Eisenhower administration"</expressao>
+    <expressao>"Imperial Germany"</expressao>
+    <expressao>"Shanghai Massacre"</expressao>
+    <expressao>"French campaign in Egypt and Syria"</expressao>
+    <expressao>"Jean Baptiste Joseph Delambre"</expressao>
+    <expressao>"Hitler"</expressao>
+    <expressao>"Kosovo"</expressao>
+    <expressao>"Duke of Reichstadt"</expressao>
+    <expressao>"Wilgelm Vitgeft"</expressao>
+    <expressao>"Battle of Zama"</expressao>
+    <expressao>"War of the Sixth Coalition"</expressao>
+    <expressao>"Wonju"</expressao>
+    <expressao>"Premier Zhou Enlai"</expressao>
+    <expressao>"Ferdinand Foch"</expressao>
+    <expressao>"Polybius"</expressao>
+    <expressao>"Marie Antoinette"</expressao>
+    <expressao>"Battle of Kosovo"</expressao>
+    <expressao>"Tianjin"</expressao>
+    <expressao>"Julie Clary"</expressao>
+    <expressao>"Martin van Creveld"</expressao>
+    <expressao>"Churchill"</expressao>
+    <expressao>"Rhode Island"</expressao>
+    <expressao>"Sherif Hussein"</expressao>
+    <expressao>"South Vietnamese"</expressao>
+    <expressao>"Kursk"</expressao>
+    <expressao>"President George W. Bush"</expressao>
+    <expressao>"Jersey City, New Jersey"</expressao>
+    <expressao>"Sixth Coalition"</expressao>
+    <expressao>"Sayenqueraghta"</expressao>
+    <expressao>"New Jersey"</expressao>
+    <expressao>"Marriages"</expressao>
+    <expressao>"Taranto"</expressao>
+    <expressao>"Coalition Provisional Authority"</expressao>
+    <expressao>"Louis Antoine"</expressao>
+    <expressao>"Corsica"</expressao>
+    <expressao>"President Gerald Ford"</expressao>
+    <expressao>"Ben Weider"</expressao>
+    <expressao>"Operation Bagration"</expressao>
+    <expressao>"Poland"</expressao>
+    <expressao>"Honduras"</expressao>
+    <expressao>"Antoine Barnave"</expressao>
+    <expressao>"Volgograd"</expressao>
+    <expressao>"American history"</expressao>
+    <expressao>"Albania"</expressao>
+    <expressao>"Operation Praying Mantis"</expressao>
+    <expressao>"Mosul"</expressao>
+    <expressao>"Republic of Vietnam"</expressao>
+    <expressao>"Korean War casualties"</expressao>
+    <expressao>"Maxwell D. Taylor"</expressao>
+    <expressao>"Sardinia"</expressao>
+    <expressao>"Francis Marion"</expressao>
+    <expressao>"Obama"</expressao>
+    <expressao>"Graham Martin"</expressao>
+    <expressao>"Sovetsk, Kaliningrad Oblast"</expressao>
+    <expressao>"Ronald Reagan"</expressao>
+    <expressao>"Tipu Sultan"</expressao>
+    <expressao>"Henry Clinton (American War of Independence)"</expressao>
+    <expressao>"Republic of Armenia"</expressao>
+    <expressao>"Merry Joseph Blondel"</expressao>
+    <expressao>"Arab Revolt"</expressao>
+    <expressao>"Merry-Joseph Blondel"</expressao>
+    <expressao>"Bulgaria"</expressao>
+    <expressao>"Changsha"</expressao>
+    <expressao>"William Jennings Bryan"</expressao>
+    <expressao>"Louis Philippe I"</expressao>
+    <expressao>"Soviets"</expressao>
+    <expressao>"South Carolina"</expressao>
+    <expressao>"Allied intervention in the Russian Civil War"</expressao>
+    <expressao>"Madagascar"</expressao>
+    <expressao>"James Reston"</expressao>
+    <expressao>"Pressburg"</expressao>
+    <expressao>"Battle of Kapyong"</expressao>
+    <expressao>"Karbala"</expressao>
+    <expressao>"Sevastopol"</expressao>
+    <expressao>"Amoy"</expressao>
+    <expressao>"Saudi"</expressao>
+    <expressao>"Guilin"</expressao>
+    <expressao>"Japan"</expressao>
+    <expressao>"Battle of Camden"</expressao>
+    <expressao>"Secretary of Defense Robert Gates"</expressao>
+    <expressao>"General Gates"</expressao>
+    <expressao>"Dwight D. Eisenhower"</expressao>
+    <expressao>"UN Offensive, 1950"</expressao>
+    <expressao>"Taejon"</expressao>
+    <expressao>"Battle of Coronel"</expressao>
+    <expressao>"Denmark"</expressao>
+    <expressao>"Cádiz"</expressao>
+    <expressao>"Detroit"</expressao>
+    <expressao>"Chinese Spring Offensive"</expressao>
+    <expressao>"Insurgency"</expressao>
+    <expressao>"Znaim"</expressao>
+    <expressao>"Whites"</expressao>
+    <expressao>"German Empire"</expressao>
+    <expressao>"Dominican Republic"</expressao>
+    <expressao>"Emperor Napoleon"</expressao>
+    <expressao>"President Richard M. Nixon"</expressao>
+    <expressao>"Operation Frequent Wind"</expressao>
+    <expressao>"Battle of Friedland"</expressao>
+    <expressao>"Operation Linebacker"</expressao>
+    <expressao>"Metternich"</expressao>
+    <expressao>"Nicaragua"</expressao>
+    <expressao>"Scott Helvenston"</expressao>
+    <expressao>"Ottoman Empire"</expressao>
+    <expressao>"Guyane"</expressao>
+    <expressao>"1975 Spring Offensive"</expressao>
+    <expressao>"Second Coalition"</expressao>
+    <expressao>"Nikolai Yudenich"</expressao>
+    <expressao>"Valley Forge"</expressao>
+    <expressao>"Battle of Vimy Ridge"</expressao>
+    <expressao>"Fourth Coalition"</expressao>
+    <expressao>"Battle of Trenton"</expressao>
+    <expressao>"Bosnia"</expressao>
+    <expressao>"James Baker"</expressao>
+    <expressao>"Junker mutiny"</expressao>
+    <expressao>"Kaledin"</expressao>
+    <expressao>"Novocherkassk"</expressao>
+    <expressao>"Denikin"</expressao>
+    <expressao>"Rostov"</expressao>
+    <expressao>"Kiev"</expressao>
+    <expressao>"Ekaterinodar"</expressao>
+    <expressao>"General Denikin"</expressao>
+    <expressao>"Paul Avrich"</expressao>
+    <expressao>"Gregori Maximoff"</expressao>
+    <expressao>"General Dunsterville"</expressao>
+    <expressao>"Persia"</expressao>
+    <expressao>"Soviet"</expressao>
+    <expressao>"Bolshevik forces"</expressao>
+    <expressao>"Cheliabinsk"</expressao>
+    <expressao>"Ekaterinburg"</expressao>
+    <expressao>"Saratov"</expressao>
+    <expressao>"Lenin"</expressao>
+    <expressao>"Murmansk"</expressao>
+    <expressao>"Nestor Makhno"</expressao>
+    <expressao>"Arkhangelsk"</expressao>
+    <expressao>"Siberia"</expressao>
+    <expressao>"Allied nations"</expressao>
+    <expressao>"Yudenich"</expressao>
+    <expressao>"General Wrangel"</expressao>
+    <expressao>"Tukhachevsky"</expressao>
+    <expressao>"Voronezh"</expressao>
+    <expressao>"Makhno"</expressao>
+    <expressao>"Helsinki"</expressao>
+    <expressao>"Tartu"</expressao>
+    <expressao>"Grigory Semyonov"</expressao>
+    <expressao>"Leon Trotsky"</expressao>
+    <expressao>"Kronstadt"</expressao>
+    <expressao>"Tambov"</expressao>
+    <expressao>"Amur Krai"</expressao>
+    <expressao>"Eastern Siberia"</expressao>
+    <expressao>"Chairman Mao Zedong"</expressao>
+    <expressao>"Raoul Salan"</expressao>
+    <expressao>"Operation Lorraine"</expressao>
+    <expressao>"General Salan"</expressao>
+    <expressao>"Battle of Dien Bien Phu"</expressao>
+    <expressao>"First Indochina War"</expressao>
+    <expressao>"Battle of Mang Yang Pass"</expressao>
+    <expressao>"Operation Lea"</expressao>
+    <expressao>"French Union"</expressao>
+    <expressao>"Battle of Puebla"</expressao>
+    <expressao>"Puebla"</expressao>
+    <expressao>"Francisco I. Madero"</expressao>
+    <expressao>"Pancho Villa"</expressao>
+    <expressao>"Emiliano Zapata"</expressao>
+    <expressao>"Mexican Revolution"</expressao>
+    <expressao>"Coahuila"</expressao>
+    <expressao>"San Antonio"</expressao>
+    <expressao>"Mexicali"</expressao>
+    <expressao>"Chihuahua City"</expressao>
+    <expressao>"Pascual Orozco"</expressao>
+    <expressao>"Victoriano Huerta"</expressao>
+    <expressao>"Bernardo Reyes"</expressao>
+    <expressao>"Henry Lane Wilson"</expressao>
+    <expressao>"Venustiano Carranza"</expressao>
+    <expressao>"Carranza"</expressao>
+    <expressao>"Veracruz"</expressao>
+    <expressao>"Puerto Mexico"</expressao>
+    <expressao>"United States government"</expressao>
+    <expressao>"Durango"</expressao>
+    <expressao>"Villistas"</expressao>
+    <expressao>"Battle of Celaya"</expressao>
+    <expressao>"Celaya"</expressao>
+    <expressao>"Mexico City"</expressao>
+    <expressao>"Aguascalientes"</expressao>
+    <expressao>"Attila"</expressao>
+    <expressao>"Morelos"</expressao>
+    <expressao>"Manuel Palafox"</expressao>
+    <expressao>"Bilbao"</expressao>
+    <expressao>"Salamanca"</expressao>
+    <expressao>"Valencia"</expressao>
+    <expressao>"Morocco"</expressao>
+    <expressao>"Battle of Brunete"</expressao>
+    <expressao>"Barcelona"</expressao>
+    <expressao>"Battle of Teruel"</expressao>
+    <expressao>"Teruel"</expressao>
+    <expressao>"Aragon Offensive"</expressao>
+    <expressao>"XYZ Line"</expressao>
+    <expressao>"Munich"</expressao>
+    <expressao>"Czechoslovakia"</expressao>
+    <expressao>"Tarragona"</expressao>
+    <expressao>"Girona"</expressao>
+    <expressao>"Franco regime"</expressao>
+    <expressao>"French Third Republic"</expressao>
+    <expressao>"Nazi Germany"</expressao>
+    <expressao>"French resistance"</expressao>
+    <expressao>"French Republic"</expressao>
+    <expressao>"Messali Hadj"</expressao>
+    <expressao>"Ferhat Abbas"</expressao>
+    <expressao>"Frantz Fanon"</expressao>
+    <expressao>"Ahmed Ben Bella"</expressao>
+    <expressao>"Algiers"</expressao>
+    <expressao>"Jacques Soustelle"</expressao>
+    <expressao>"Skikda"</expressao>
+    <expressao>"Times magazine"</expressao>
+    <expressao>"Ben Bella"</expressao>
+    <expressao>"Mohammed Boudiaf"</expressao>
+    <expressao>"Mohamed Khider"</expressao>
+    <expressao>"Suez Crisis"</expressao>
+    <expressao>"French Algeria"</expressao>
+    <expressao>"Djamila Bouhired"</expressao>
+    <expressao>"Zohra Drif"</expressao>
+    <expressao>"Oran"</expressao>
+    <expressao>"Florent Emilio Siri"</expressao>
+    <expressao>"General Massu"</expressao>
+    <expressao>"De Gaulle"</expressao>
+    <expressao>"Bigeard"</expressao>
+    <expressao>"Algerian Revolution"</expressao>
+    <expressao>"UN General Assembly"</expressao>
+    <expressao>"Pierre Lagaillarde"</expressao>
+    <expressao>"Pierre Messmer"</expressao>
+    <expressao>"Roger Trinquier"</expressao>
+    <expressao>"Jean Ousset"</expressao>
+    <expressao>"Dominique Venner"</expressao>
+    <expressao>"Jacques Isorni"</expressao>
+    <expressao>"Jean Marie Le Pen"</expressao>
+    <expressao>"Algerian war"</expressao>
+    <expressao>"Termez"</expressao>
+    <expressao>"Uzbek SSR"</expressao>
+    <expressao>"Soviet invasion of Afghanistan"</expressao>
+    <expressao>"Babrak Karmal"</expressao>
+    <expressao>"Kandahar"</expressao>
+    <expressao>"Operation Cyclone"</expressao>
+    <expressao>"Ahmad Shah Massoud"</expressao>
+    <expressao>"Khost"</expressao>
+    <expressao>"Islamic State of Afghanistan"</expressao>
+    <expressao>"Sibghatullah Mojaddedi"</expressao>
+    <expressao>"Mojaddedi"</expressao>
+    <expressao>"Michael G. Vickers"</expressao>
+    <expressao>"Michael Pillsbury"</expressao>
+    <expressao>"Ahmed Shah Massoud"</expressao>
+    <expressao>"Reagan administration"</expressao>
+    <expressao>"Gardez"</expressao>
+    <expressao>"Jalalabad"</expressao>
+    <expressao>"Karmal"</expressao>
+    <expressao>"Mikhail Gorbachev"</expressao>
+    <expressao>"Mohammad Najibullah"</expressao>
+    <expressao>"Kabul"</expressao>
+    <expressao>"President Jimmy Carter"</expressao>
+    <expressao>"President Carter"</expressao>
+    <expressao>"Based"</expressao>
+    <expressao>"Dmitry Ustinov"</expressao>
+    <expressao>"Boris Ponomarev"</expressao>
+    <expressao>"Pakistan"</expressao>
+    <expressao>"Russian Government"</expressao>
+    <expressao>"Estonian War of Independence"</expressao>
+    <expressao>"Latvian War of Independence"</expressao>
+    <expressao>"Lithuanian Wars of Independence"</expressao>
+    <expressao>"Minsk"</expressao>
+    <expressao>"Latvia"</expressao>
+    <expressao>"Anton Denikin"</expressao>
+    <expressao>"Zhytomyr"</expressao>
+    <expressao>"Khmelnytskyi"</expressao>
+    <expressao>"Battle of Daugavpils"</expressao>
+    <expressao>"Daugavpils"</expressao>
+    <expressao>"Petlura"</expressao>
+    <expressao>"Petliura"</expressao>
+    <expressao>"Belorussia"</expressao>
+    <expressao>"Symon Petlura"</expressao>
+    <expressao>"Grodno"</expressao>
+    <expressao>"Roman Dmowski"</expressao>
+    <expressao>"Leopold Skulski"</expressao>
+    <expressao>"Vilno"</expressao>
+    <expressao>"David Lloyd George"</expressao>
+    <expressao>"Lord Curzon"</expressao>
+    <expressao>"Lloyd George"</expressao>
+    <expressao>"Jean Jules Jusserand"</expressao>
+    <expressao>"Maxime Weygand"</expressao>
+    <expressao>"Marshal Ferdinand Foch"</expressao>
+    <expressao>"Gayk Bzhishkyan"</expressao>
+    <expressao>"Mikhail Tukhachevsky"</expressao>
+    <expressao>"Tadeusz Rozwadowski"</expressao>
+    <expressao>"Lublin"</expressao>
+    <expressao>"Budyonny"</expressao>
+    <expressao>"Soviet Ukraine"</expressao>
+    <expressao>"Nigeria"</expressao>
+    <expressao>"Ghana"</expressao>
+    <expressao>"Ojukwu"</expressao>
+    <expressao>"Lagos"</expressao>
+    <expressao>"Republic of Benin"</expressao>
+    <expressao>"Benin"</expressao>
+    <expressao>"Edo"</expressao>
+    <expressao>"Niger"</expressao>
+    <expressao>"Welshman"</expressao>
+    <expressao>"Bernard Kouchner"</expressao>
+    <expressao>"Kouchner"</expressao>
+    <expressao>"Enugu"</expressao>
+    <expressao>"Yakubu Gowon"</expressao>
+    <expressao>"Eritrea"</expressao>
+    <expressao>"Haile Selassie"</expressao>
+    <expressao>"Ethiopia"</expressao>
+    <expressao>"Haile Selassie Gugsa"</expressao>
+    <expressao>"Tewodros II"</expressao>
+    <expressao>"Bono"</expressao>
+    <expressao>"Ethiopian Christmas Offensive"</expressao>
+    <expressao>"Addis Ababa"</expressao>
+    <expressao>"Ras Imru"</expressao>
+    <expressao>"Christmas Offensive"</expressao>
+    <expressao>"Assab"</expressao>
+    <expressao>"Badoglio"</expressao>
+    <expressao>"First Battle of Tembien"</expressao>
+    <expressao>"Battle of Genale Doria"</expressao>
+    <expressao>"Battle of Enderta"</expressao>
+    <expressao>"Second Battle of Tembien"</expressao>
+    <expressao>"Battle of Shire"</expressao>
+    <expressao>"Battle of Maychew"</expressao>
+    <expressao>"Emperor Haile Selassie"</expressao>
+    <expressao>"Harar"</expressao>
+    <expressao>"Jijiga"</expressao>
+    <expressao>"Iron"</expressao>
+    <expressao>"Djibouti"</expressao>
+    <expressao>"Abebe Aregai"</expressao>
+    <expressao>"Quirinal Palace"</expressao>
+    <expressao>"Salute"</expressao>
+    <expressao>"British Mandate of Palestine"</expressao>
+    <expressao>"Nicolae Titulescu"</expressao>
+    <expressao>"Empire of Japan"</expressao>
+</simbolo>

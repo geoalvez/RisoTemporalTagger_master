@@ -1,0 +1,108 @@
+a1 -> On September 1, 1939
+a1 -> in 1939
+a1 -> On September 17, 1939
+a1 -> late September
+a1 -> in November 1939
+a1 -> in March 1940
+a1 -> In June 1940
+a1 -> until April 1940
+a1 -> in February
+a1 -> In April
+a1 -> in two
+a1 -> on May 10, 1940
+a1 -> On June 10
+a13 -> days later
+a1 -> On July 14
+a1 -> in June
+a1 -> in August
+a1 -> in September 1940
+a1 -> in September
+a1 -> In November 1939
+a1 -> In 1940
+a1 -> In September
+a1 -> to 1941
+a1 -> At the end of September 1940
+a1 -> in November 1940
+a1 -> In October 1940
+a3 -> in days
+a1 -> In December 1940
+a1 -> in February
+a1 -> in May
+a1 -> in June
+a1 -> In early April
+a1 -> on May 11, 1941
+a1 -> In August
+a3 -> that year
+a1 -> in January 1941
+a1 -> in April 1941
+a1 -> On June 22, 1941
+a1 -> In July
+a1 -> In August
+a1 -> on December 5
+a1 -> in June 1941
+a1 -> On December 7
+a1 -> In January
+a1 -> in May 1942
+a1 -> in early January 1942
+a1 -> in January
+a1 -> In early May 1942
+a1 -> In early June
+a1 -> in late May
+a1 -> in July
+a1 -> in late 1942
+a1 -> in February
+a1 -> in June 1942
+a1 -> in early May 1942
+a1 -> In August 1942
+a13 -> months later
+a1 -> In May 1943
+a1 -> In April
+a1 -> On July 4, 1943
+a1 -> This dec
+a1 -> on July 9
+a3 -> that month
+a1 -> On July 12, 1943
+a1 -> In early September 1943
+a1 -> In November 1943
+a1 -> in 1944
+a1 -> in three
+a1 -> In January 1944
+a1 -> late May 1944
+a1 -> on June 4
+a1 -> In March 1944
+a1 -> In May 1944
+a1 -> in late 1943
+a1 -> On June 6, 1944
+a1 -> on August 25
+a1 -> On June 22
+a1 -> In September 1944
+a1 -> on October 20
+a13 -> days later
+a1 -> in February 1945
+a1 -> In mid-June 1944
+a1 -> In late October
+a1 -> On December 16, 1944
+a1 -> In mid-January 1945
+a1 -> On February 4
+a1 -> In February
+a1 -> In March
+a1 -> In early April
+a1 -> in late April
+a1 -> on April 25
+a1 -> On April 12
+a1 -> on April 28
+a13 -> days later
+a1 -> on April 29
+a1 -> on May 7
+a1 -> on May 8
+a1 -> until May 11
+a1 -> in January 1945
+a1 -> in March
+a3 -> that month
+a1 -> from October
+a1 -> to March
+a1 -> On July 11
+a1 -> in early August
+a1 -> On August 15, 1945
+a1 -> on September 2, 1945
+['On September 1, 1939', 'in 1939', 'On September 17, 1939', 'late September', 'in November 1939', 'in March 1940', 'In June 1940', 'until April 1940', 'in February', 'In April', 'in two', 'on May 10, 1940', 'On June 10', 'days later', 'On July 14', 'in June', 'in August', 'in September 1940', 'in September', 'In November 1939', 'In 1940', 'In September', 'to 1941', 'At the end of September 1940', 'in November 1940', 'In October 1940', 'in days', 'In December 1940', 'in February', 'in May', 'in June', 'In early April', 'on May 11, 1941', 'In August', 'that year', 'in January 1941', 'in April 1941', 'On June 22, 1941', 'In July', 'In August', 'on December 5', 'in June 1941', 'On December 7', 'In January', 'in May 1942', 'in early January 1942', 'in January', 'In early May 1942', 'In early June', 'in late May', 'in July', 'in late 1942', 'in February', 'in June 1942', 'in early May 1942', 'In August 1942', 'months later', 'In May 1943', 'In April', 'On July 4, 1943', 'This dec', 'on July 9', 'that month', 'On July 12, 1943', 'In early September 1943', 'In November 1943', 'in 1944', 'in three', 'In January 1944', 'late May 1944', 'on June 4', 'In March 1944', 'In May 1944', 'in late 1943', 'On June 6, 1944', 'on August 25', 'On June 22', 'In September 1944', 'on October 20', 'days later', 'in February 1945', 'In mid-June 1944', 'In late October', 'On December 16, 1944', 'In mid-January 1945', 'On February 4', 'In February', 'In March', 'In early April', 'in late April', 'on April 25', 'On April 12', 'on April 28', 'days later', 'on April 29', 'on May 7', 'on May 8', 'until May 11', 'in January 1945', 'in March', 'that month', 'from October', 'to March', 'On July 11', 'in early August', 'On August 15, 1945', 'on September 2, 1945']
