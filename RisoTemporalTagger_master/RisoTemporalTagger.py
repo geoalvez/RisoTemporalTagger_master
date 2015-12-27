@@ -3,6 +3,8 @@ import sys
 import re
 from xml.dom.minidom import parseString
 import datetime
+import os
+from os.path import basename
 import RISOTemportalTaggerNormalization
 import psycopg2
 from ctypes.test.test_values import ValuesTestCase
@@ -210,11 +212,15 @@ class RisoTemporalTagger:
         self.__input = self.__read_file(path)
         self.__position = 0
         
+        nomeDocumento = basename(path)
+        documentId = self.__INSERT_DOCUMENT_INFO(nomeDocumento)
+
         if case_sensitive:
             self.__flags = re.M
         else:
             self.__flags = re.M|re.I
 
+        normalizacaoAnterior = ""
         while self.__position <= len(self.__input):
             rule_matched, value_matched = self.__try_any_match(rule, self.__position)
             if value_matched is None:
@@ -226,33 +232,134 @@ class RisoTemporalTagger:
                 print str(value_matched) + " <--> " + normalizacao
                 
                 if (("mapeado" not in normalizacao) and (normalizacao <> "")):
-                    self.__INSERT_DATA_NORM(value_matched, normalizacao)
+                    self.__INSERT_DATA_NORM(value_matched, normalizacao, documentId)
                 self.__position += len(value_matched)
                 
                 self.normList.append(normalizacao) # 20140415 - George Alves
 
+    def ExpressionReturn(self, expression, text):
+        reMDA = expression
+        regMDA = re.compile(reMDA, re.IGNORECASE)
+        found = regMDA.findall(text)
+        result = ""
+        for a in found:
+            if len(a) > 1:
+                result = result + a[0]
+        
+        return [a[0] for a in found if len(a) > 1]
+    def __INSERT_DATA_NORM (self, data, dataNorm, idDocumento):
+        qtdNum = "([0-9]+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|twenty-one|twenty-two|twenty-three|twenty-four|twenty-five|twenty-six|twenty-seven|twenty-eight|twenty-nine|thirty|thirty-one|thirty-two|thirty-three|thirty-four|thirty-five|thirty-six|thirty-seven|thirty-eight|thirty-nine|forty|forty-one|forty-two|forty-three|forty-four|forty-five|forty-six|forty-seven|forty-eight|forty-nine|fifty|fifty-one|fifty-two|fifty-three|fifty-four|fifty-five|fifty-six|fifty-seven|fifty-eight|fifty-nine|sixty|sixty-one|sixty-two|sixty-three|sixty-four|sixty-five|sixty-six|sixty-seven|sixty-eight|sixty-nine|seventy|seventy-one|seventy-two|seventy-three|seventy-four|seventy-five|seventy-six|seventy-seven|seventy-eight|seventy-nine|eighty|eighty-one|eighty-two|eighty-three|eighty-four|eighty-five|eighty-six|eighty-seven|eighty-eight|eighty-nine|ninety|ninety-one|ninety-two|ninety-three|ninety-four|ninety-five|ninety-six|ninety-seven|ninety-eight|ninety-nine|a hundred|one hundred|a thousand|one thousand)" #20140415 - George Alves
 
-    def __INSERT_DATA_NORM (self, data, dataNorm):
+        __X_YEARS_BEFORE_EX = "^("+qtdNum+" year[s]* before)$"
+        __X_YEARS_EARLY_EX  = "^("+qtdNum+" year[s]* early)$"
+        __X_YEARS_EARLIER_EX  = "^("+qtdNum+" year[s]* earlier)$"
+        __X_YEARS_LATE_EX   = "^("+qtdNum+" year[s]* late)$"
+        __X_YEARS_LATER_EX  = "^("+qtdNum+" year[s]* later)$"
+        __X_YEARS_AFTER_EX  = "^("+qtdNum+" year[s]* after)$"
+        __AFTER_X_YEARS_EX  = "^(after "+qtdNum+" year[s]*)$"
+        __BEFORE_X_YEARS_EX = "^(before "+qtdNum+" year[s]*)$"
+        
+        __X_MONTHS_BEFORE_EX = "^("+qtdNum+" month[s]* before)$"
+        __X_MONTHS_EARLY_EX  = "^("+qtdNum+" month[s]* early)$"
+        __X_MONTHS_EARLIER_EX  = "^("+qtdNum+" month[s]* earlier)$"
+        __X_MONTHS_LATE_EX   = "^("+qtdNum+" month[s]* late)$"
+        __X_MONTHS_LATER_EX  = "^("+qtdNum+" month[s]* later)$"
+        __X_MONTHS_AFTER_EX  = "^("+qtdNum+" month[s]* after)$"
+        __AFTER_X_MONTHS_EX  = "^(after "+qtdNum+" month[s]*)$"
+        __BEFORE_X_MONTHS_EX = "^(before "+qtdNum+" month[s]*)$"
+        
+        __X_DAYS_BEFORE_EX = "^("+qtdNum+" day[s]* before)$"
+        __X_DAYS_EARLY_EX  = "^("+qtdNum+" day[s]* early)$"
+        __X_DAYS_LATE_EX   = "^("+qtdNum+" day[s]* late)$"
+        __X_DAYS_LATER_EX  = "^("+qtdNum+" day[s]* later)$"
+        __X_DAYS_AFTER_EX  = "^("+qtdNum+" day[s]* after)$"
+        __AFTER_X_DAYS_EX  = "^(after "+qtdNum+" day[s]*)$"
+        __BEFORE_X_DAYS_EX = "^(before "+qtdNum+" day[s]*)$"
+        
         try:
             conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='Patchanka777'")
             cur = conn.cursor()
-            cur.execute("""  SELECT dn.* from datanorm dn where dn.data = '"""+str(data)+"""' """)
-            rows = cur.fetchall()
-        
-            foiInserido = False
-            for row in rows:
-                foiInserido = True
-        
-            if (not foiInserido):
-                cur = conn.cursor()
-                dataInfo = ({"data":str(data), "datanormalizada":str(dataNorm)})            
-                cur.execute("""  insert into datanorm (data, datanormalizada) values ('""" +data+ """', '"""+dataNorm+"""') """)
-                conn.commit()
+            achou = False
+            arrayFromEx = [__X_YEARS_BEFORE_EX, __X_YEARS_EARLY_EX, __X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX, __X_YEARS_LATER_EX, __X_YEARS_AFTER_EX, __AFTER_X_YEARS_EX, __BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX, __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX, __X_MONTHS_LATE_EX, __X_MONTHS_LATER_EX, __X_MONTHS_AFTER_EX, __AFTER_X_MONTHS_EX, __BEFORE_X_MONTHS_EX, __X_DAYS_BEFORE_EX, __X_DAYS_EARLY_EX, __X_DAYS_LATE_EX, __X_DAYS_LATER_EX, __X_DAYS_AFTER_EX, __AFTER_X_DAYS_EX, __BEFORE_X_DAYS_EX] 
+            #20140415 - George Alves- Inclusao dos novos padroes - FIM 
+            for regex in arrayFromEx:
+                list = self.ExpressionReturn(regex, data)
+                        
+                if len(list) > 0:
+                    achou = True
+            
+            if not (achou):
+                #cur.execute("""  SELECT dn.* from datanorm dn where dn.data = '"""+str(data)+"""' """)
+                #rows = cur.fetchall()
+            
+                foiInserido = False
+                #for row in rows:
+                #    foiInserido = True
+            
+                if (not foiInserido):
+                    cur = conn.cursor()
+                    dataInfo = ({"data":str(data), "datanormalizada":str(dataNorm)})            
+                    cur.execute("""  insert into datanorm (id_documento, data, datanormalizada, seq_frase) values (""" +str(idDocumento)+ """, '""" +data+ """', '"""+dataNorm+"""', nextval('id_frase_seq')) """)
+                    conn.commit()
+                    
+                    #cur.executemany("""INSERT INTO datanorm (data, datanomalizada) values  ('oi', 'oi')""")
+    
+                    # print """  INSERT INTO datanorm (data, datanormalizada) values ('"""+str(data)+"""', '"""+str(dataNorm)+"""')  """
+                    # cur.executemany("""  INSERT INTO datanorm (data, datanomalizada) values (%(data)s, %(datanormalizada)s) ""--", dataInfo)
+            else:
+                #cur.execute("""  SELECT dn.* from datanorm dn where dn.data = '"""+str(data)+"""' """)
+                #rows = cur.fetchall()
+            
+                foiInserido = False
+                #for row in rows:
+                #    foiInserido = True
+            
+                if (not foiInserido):
+                    cur = conn.cursor()
+                    dataInfo = ({"data":str(data), "datanormalizada":str(dataNorm)})            
+                    cur.execute("""  insert into datanorm (id_documento, data, datanormalizada, seq_frase) values (""" +str(idDocumento)+ """, '""" +data+ """', '"""+dataNorm+"""', nextval('id_frase_seq')) """)
+                    conn.commit()
+                    
+                    #cur.executemany("""INSERT INTO datanorm (data, datanomalizada) values  ('oi', 'oi')""")
+    
+                    # print """  INSERT INTO datanorm (data, datanormalizada) values ('"""+str(data)+"""', '"""+str(dataNorm)+"""')  """
+                    # cur.executemany("""  INSERT INTO datanorm (data, datanomalizada) values (%(data)s, %(datanormalizada)s) ""--", dataInfo)
                 
-                #cur.executemany("""INSERT INTO datanorm (data, datanomalizada) values  ('oi', 'oi')""")
+        except:
+            print "I am unable to connect to the database"    
 
-                # print """  INSERT INTO datanorm (data, datanormalizada) values ('"""+str(data)+"""', '"""+str(dataNorm)+"""')  """
-                # cur.executemany("""  INSERT INTO datanorm (data, datanomalizada) values (%(data)s, %(datanormalizada)s) ""--", dataInfo)
+    def __INSERT_DOCUMENT_INFO (self, nomeDocumento):
+        
+        try:
+            conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='Patchanka777'")
+            cur = conn.cursor()
+            achou = False
+            if not (achou):
+                cur.execute("""  SELECT di.id_documento from documentinfo di where di.nome_documento = '"""+str(nomeDocumento)+"""' """)
+                rows = cur.fetchall()
+            
+                foiInserido = False
+                for row in rows:
+                    retorno = row[0]
+                    foiInserido = True
+            
+                if (not foiInserido):
+                    cur = conn.cursor()
+                    cur.execute("""  SELECT nextval('id_document_seq') """)
+                    rows = cur.fetchall()
+                
+                    foiInserido = False
+                    for row in rows:
+                        retorno = row[0]
+                    
+                    
+                    cur = conn.cursor()
+                    cur.execute("""  insert into documentinfo (id_documento, nome_documento) values (""" +str(retorno)+ """, '"""+nomeDocumento+"""') """)
+                    conn.commit()
+                    
+                return retorno
+                    
+                
         except:
             print "I am unable to connect to the database"    
 

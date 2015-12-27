@@ -59,32 +59,32 @@ __MA_EX = "(" + month + " " + year + ")"
 __MD_EX = "(" + month + " " + day_numbers + ")" 
 # 20140415 - George Alves - INICIO 
 __EBT_COMPLETO_INV_EX = "("+year+"-("+mesesNumericos+"|"+month+")-"+day_numbers+")"
-__EBT_COMPLETO_EX = "("+day_numbers+"-("+mesesNumericos+"|"+month+")-"+year+")"
-__X_YEARS_BEFORE_EX = "("+qtdNum+" year[s]* before)"
-__X_YEARS_EARLY_EX  = "("+qtdNum+" year[s]* early)"
-__X_YEARS_EARLIER_EX  = "("+qtdNum+" year[s]* earlier)"
-__X_YEARS_LATE_EX   = "("+qtdNum+" year[s]* late)"
-__X_YEARS_LATER_EX  = "("+qtdNum+" year[s]* later)"
-__X_YEARS_AFTER_EX  = "("+qtdNum+" year[s]* after)"
-__AFTER_X_YEARS_EX  = "(after "+qtdNum+" year[s]*)"
-__BEFORE_X_YEARS_EX = "(before "+qtdNum+" year[s]*)"
+__EBT_COMPLETO_EX = "^("+day_numbers+"-("+mesesNumericos+"|"+month+")-"+year+")"
+__X_YEARS_BEFORE_EX = "^("+qtdNum+" year[s]* before)$"
+__X_YEARS_EARLY_EX  = "^("+qtdNum+" year[s]* early)$"
+__X_YEARS_EARLIER_EX  = "^("+qtdNum+" year[s]* earlier)$"
+__X_YEARS_LATE_EX   = "^("+qtdNum+" year[s]* late)$"
+__X_YEARS_LATER_EX  = "^("+qtdNum+" year[s]* later)$"
+__X_YEARS_AFTER_EX  = "^("+qtdNum+" year[s]* after)$"
+__AFTER_X_YEARS_EX  = "^(after "+qtdNum+" year[s]*)$"
+__BEFORE_X_YEARS_EX = "^(before "+qtdNum+" year[s]*)$"
 
-__X_MONTHS_BEFORE_EX = "("+qtdNum+" month[s]* before)"
-__X_MONTHS_EARLY_EX  = "("+qtdNum+" month[s]* early)"
-__X_MONTHS_EARLIER_EX  = "("+qtdNum+" month[s]* earlier)"
-__X_MONTHS_LATE_EX   = "("+qtdNum+" month[s]* late)"
-__X_MONTHS_LATER_EX  = "("+qtdNum+" month[s]* later)"
-__X_MONTHS_AFTER_EX  = "("+qtdNum+" month[s]* after)"
-__AFTER_X_MONTHS_EX  = "(after "+qtdNum+" month[s]*)"
-__BEFORE_X_MONTHS_EX = "(before "+qtdNum+" month[s]*)"
+__X_MONTHS_BEFORE_EX = "^("+qtdNum+" month[s]* before)$"
+__X_MONTHS_EARLY_EX  = "^("+qtdNum+" month[s]* early)$"
+__X_MONTHS_EARLIER_EX  = "^("+qtdNum+" month[s]* earlier)$"
+__X_MONTHS_LATE_EX   = "^("+qtdNum+" month[s]* late)$"
+__X_MONTHS_LATER_EX  = "^("+qtdNum+" month[s]* later)$"
+__X_MONTHS_AFTER_EX  = "^("+qtdNum+" month[s]* after)$"
+__AFTER_X_MONTHS_EX  = "^(after "+qtdNum+" month[s]*)$"
+__BEFORE_X_MONTHS_EX = "^(before "+qtdNum+" month[s]*)$"
 
-__X_DAYS_BEFORE_EX = "("+qtdNum+" day[s]* before)"
-__X_DAYS_EARLY_EX  = "("+qtdNum+" day[s]* early)"
-__X_DAYS_LATE_EX   = "("+qtdNum+" day[s]* late)"
-__X_DAYS_LATER_EX  = "("+qtdNum+" day[s]* later)"
-__X_DAYS_AFTER_EX  = "("+qtdNum+" day[s]* after)"
-__AFTER_X_DAYS_EX  = "(after "+qtdNum+" day[s]*)"
-__BEFORE_X_DAYS_EX = "(before "+qtdNum+" day[s]*)"
+__X_DAYS_BEFORE_EX = "^("+qtdNum+" day[s]* before)$"
+__X_DAYS_EARLY_EX  = "^("+qtdNum+" day[s]* early)$"
+__X_DAYS_LATE_EX   = "^("+qtdNum+" day[s]* late)$"
+__X_DAYS_LATER_EX  = "^("+qtdNum+" day[s]* later)$"
+__X_DAYS_AFTER_EX  = "^("+qtdNum+" day[s]* after)$"
+__AFTER_X_DAYS_EX  = "^(after "+qtdNum+" day[s]*)$"
+__BEFORE_X_DAYS_EX = "^(before "+qtdNum+" day[s]*)$"
 __ANO_EX= "("+year+")"
 
 
@@ -117,7 +117,8 @@ __EX_DE = "([a-zA-Z]+)"
 
 __PRE_EMT_ANO = "("+preposicoes+" "+year+")"
 __PRE_EBT_DIA_MES = "("+preposicoes+" "+day_numbers+" ("+month+"|"+mesesNumericos+"))"
-
+__PRE_MES = "("+preposicoes+" ("+month+"))"
+__MES_EX = "("+month+")"
 
 __PRE_EBT_MES_ANO_EX = "("+preposicoes+" ("+month+"|"+mesesNumericos+") of "+year+")"
 
@@ -190,7 +191,7 @@ def NormalizationDateInExpression(text, ruleMatched):
 def NormalizationListAnteriores(text, listNorm,ruleMatched):
     #Inicia um array com todos os padrões mapeados
     #20140415 - George Alves- Inclusao dos novos padroes - INICIO 
-    arrayFromEx = [__ANO_INDEFINIDO_EX, __ANO_INDEFINIDO_INV_EX,  __MES_INDEFINIDO_EX, __DIA_INDEFINIDO_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX ,__X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __PRE_EBT_DIA_MES] 
+    arrayFromEx = [__ANO_INDEFINIDO_EX, __ANO_INDEFINIDO_INV_EX,  __MES_INDEFINIDO_EX, __DIA_INDEFINIDO_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX ,__X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __PRE_EBT_DIA_MES, __PRE_MES, __MES_EX] 
     #20140415 - George Alves- Inclusao dos novos padroes - FIM 
     
     if (len(listNorm)>0):
@@ -211,11 +212,11 @@ def NormalizationListAnteriores(text, listNorm,ruleMatched):
     else:
     #20140415 - George Alves- Inclusao dos novos padroes - FIM 
         #20150505 - Normalizacoes que consideram datas anteriores
-        arrayFromEx = [__PRE_EBT_DIA_MES] 
+        arrayFromEx = [__PRE_EBT_DIA_MES, __MES_EX] 
         
         for regex in arrayFromEx:
             list = __ExpressionReturn(regex, text)
-            if (regex == __PRE_EBT_DIA_MES):
+            if (len(list) > 0):
                 list = [text]
                 
             if len(list) > 0:
@@ -468,7 +469,11 @@ def __NormalizedValueListNorm(regex, found, listNorm):
 
     elif regex == __PRE_EBT_DIA_MES:
         return __PRE_EBT_DIA_MES_NORM(found, listNorm, regex)
+    elif regex == __PRE_MES:
+        return __PRE_MES_NORM(found, listNorm, regex)
     
+    elif regex == __MES_EX:
+        return __MES_NORM(found, listNorm, regex)
 #20140416 - George Alves - FIM 
 
 
@@ -1261,7 +1266,98 @@ def __PRE_EBT_DIA_MES_NORM(found, listNorm, regex):
     
 # 20150505 - George Alves - FIM 
 
+#20151210 - George Alves - INICIO
+def __PRE_MES_NORM(found, listNorm, regex):
+    for risotime in found:
+        campos = risotime.split(" ")
+        if (len(listNorm) > 0):
+            ultimaDataNormalizada = listNorm[len(listNorm)-1]
+            #20140415 - George Alves- Inclusao dos novos padroes - FIM 
+                    
+            if (ultimaDataNormalizada == ""):
+                if (campos[1] in mesesNumericos):
+                    return "[?]-" + campos[1] + "-[?]";
+                elif (campos[1].lower() in month):
+                    return "[?]-" + meses[campos[1].lower()] + "-[?]";                
+            else:
+                
+                if (ultimaDataNormalizada.find(' < X < ') != -1):
+                    if (campos[1] in mesesNumericos):
+                        return campos[1] + "-" + campos[2] + "-[?]";
+                    elif (campos[1].lower() in month):
+                        return "[?]-" + meses[campos[1].lower()] + "-[?]";
+                    
+                elif (ultimaDataNormalizada[:4] == 'X < ' ):
+                    if (campos[1] in mesesNumericos):
+                        return "[?]-" + campos[1] + "-[?]";
+                    elif (campos[1].lower() in month):
+                        return "[?]-" + meses[campos[1].lower()] + "-[?]";
+                elif (ultimaDataNormalizada[:4] == 'X > ' ):
+                    if (campos[1] in mesesNumericos):
+                        return "[?]-" + campos[1] + "-[?]";
+                    elif (campos[1].lower() in month):
+                        return "[?]-" + meses[campos[1].lower()] + "-[?]";
+            
+                else:
+                    data =  ultimaDataNormalizada;
+    
+                    camposAux = data.split("-")
+                    print "aquiiiii --> risotime: "+risotime+". data " + data + "."
+                    
+                    if (campos[1] in mesesNumericos):
+                        return "[?]-" + campos[1] + "-" + camposAux[2];
+                    elif (campos[1].lower() in month):
+                        return "[?]-" + meses[campos[1].lower()] + "-" + camposAux[2];
+                
+        else:
+                            
+            if (campos[1] in mesesNumericos):
+                return "[?]-" + campos[1] + "-[?]";
+            elif (campos[2].lower() in month):
+                return "[?]-" + meses[campos[1].lower()] + "-[?]";
 
+#20151220 - George Alves - FIM
+
+#20151211 - George - INICIO
+def __MES_NORM(found, listNorm, regex):
+    for risotime in found:
+        campos = risotime.split(" ")
+        if (len(listNorm) > 0):
+            ultimaDataNormalizada = listNorm[len(listNorm)-1]
+            #20140415 - George Alves- Inclusao dos novos padroes - FIM 
+                    
+            if (ultimaDataNormalizada == ""):
+                if (risotime in mesesNumericos):
+                    return "[?]-" + risotime + "-[?]";
+                elif (risotime.lower() in month):
+                    return "[?]-" + meses[risotime.lower()] + "-[?]";                
+            else:
+                
+                if (ultimaDataNormalizada.find(' < X < ') != -1):
+                    return "[?]-" + meses[risotime.lower()] + "-[?]";                    
+                elif (ultimaDataNormalizada[:4] == 'X < ' ):
+                    return "[?]-" + meses[risotime.lower()] + "-[?]";                    
+                elif (ultimaDataNormalizada[:4] == 'X > ' ):
+                    return "[?]-" + meses[risotime.lower()] + "-[?]";                    
+                else:
+                    data =  ultimaDataNormalizada;
+    
+                    camposAux = data.split("-")
+                    
+                    if (risotime in mesesNumericos):
+                        return "[?]-" + risotime + "-" + camposAux[2];
+                    elif (risotime.lower() in month):
+                        return "[?]-" + meses[risotime.lower()] + "-" + camposAux[2];
+                
+        else:
+                            
+            if (risotime in mesesNumericos):
+                return "[?]-" + risotime + "-[?]";
+            elif (risotime.lower() in month):
+                return "[?]-" + meses[risotime.lower()] + "-[?]";
+
+
+#20151211 - George - FIM
 
 def __DataNormalizada (data,qtd,componente,flagBefore):
     dataFim = "";
