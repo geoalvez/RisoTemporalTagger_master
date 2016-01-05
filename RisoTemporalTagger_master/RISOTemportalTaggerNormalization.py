@@ -1369,6 +1369,8 @@ def __DataNormalizada (data,qtd,componente,flagBefore):
     return dataFim;
     
 def __DatasPrecisas (data,qtd,componente,flagBefore):
+    if (data.find('[?]') != -1):
+        return ""
         
     if componente == "ANO":
         years = qtd
