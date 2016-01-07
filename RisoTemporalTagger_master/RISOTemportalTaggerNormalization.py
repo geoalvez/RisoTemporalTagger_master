@@ -129,6 +129,7 @@ __PRE_EMT_EMT_COMPL_EX = "("+preposicoes+" "+day_numbers+" "+month+"-"+day_numbe
 
 __PRE_EMT_MES_DIA_EX = "^("+preposicoes+" ("+month+"|"+mesesNumericos+") "+day_numbers+")$"
 __PRE_EMT_MES_ANO_EX = "^("+preposicoes+" ("+month+"|"+mesesNumericos+") "+year+")$"
+__PRE_EBT_COMPL_2_EX = "^("+preposicoes+" "+month+" "+day_numbers+", "+year+")$"
 
 # George Alves - 20140618 - FIM
 
@@ -145,7 +146,7 @@ __FLAG_AFTER = ""
 def Normalization(text, ruleMatched):
     #Inicia um array com todos os padrões mapeados
     #20140415 - George Alves- Inclusao dos novos padroes - INICIO 
-    arrayFromEx = [__PRE_EMT_MES_DIA_EX, __PRE_EMT_MES_ANO_EX, __PRE_EBT_COMPL_EX, __PRE_EBT_MES_ANO_EX, __PRE_EMT_EMT_COMPL_EX, __PRE_EMT_ANO, __EBT_COMPLETO_EX, __EBT_COMPLETO_INV_EX, __AA_EX, __AA_SEM_ESPACO_EX , __FromMDAToMDA_EX, __FromMDToMD_EX, __FromMToM_EX, __MD_MD_EX, __MDA_EX, __AfterMDA_EX, __BeforeMDA_EX, __DMA_EX, __MA_EX, __MD_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX , __X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __ANO_EX] 
+    arrayFromEx = [__PRE_EBT_COMPL_2_EX, __PRE_EMT_MES_DIA_EX, __PRE_EMT_MES_ANO_EX, __PRE_EBT_COMPL_EX, __PRE_EBT_MES_ANO_EX, __PRE_EMT_EMT_COMPL_EX, __PRE_EMT_ANO, __EBT_COMPLETO_EX, __EBT_COMPLETO_INV_EX, __AA_EX, __AA_SEM_ESPACO_EX , __FromMDAToMDA_EX, __FromMDToMD_EX, __FromMToM_EX, __MD_MD_EX, __MDA_EX, __AfterMDA_EX, __BeforeMDA_EX, __DMA_EX, __MA_EX, __MD_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX , __X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __ANO_EX] 
     #20140415 - George Alves- Inclusao dos novos padroes - FIM 
     value = None
     maxLen = 0
@@ -156,7 +157,7 @@ def Normalization(text, ruleMatched):
                 
         if len(list) > 0:
             # 20150421 - George Alves - INICIO 
-            if (regex == __PRE_EMT_MES_DIA_EX or regex == __PRE_EMT_MES_ANO_EX or regex == __PRE_EBT_COMPL_EX or regex == __EBT_COMPLETO_EX or regex == __EBT_COMPLETO_INV_EX or regex == __AA_SEM_ESPACO_EX or regex == __MD_EX or regex == __ANO_EX or regex == __PRE_EBT_MES_ANO_EX):
+            if (regex == __PRE_EBT_COMPL_2_EX or regex == __PRE_EMT_MES_DIA_EX or regex == __PRE_EMT_MES_ANO_EX or regex == __PRE_EBT_COMPL_EX or regex == __EBT_COMPLETO_EX or regex == __EBT_COMPLETO_INV_EX or regex == __AA_SEM_ESPACO_EX or regex == __MD_EX or regex == __ANO_EX or regex == __PRE_EBT_MES_ANO_EX):
                 list = [text]
             # 20150421 - George Alves - FIM 
             if len(list[0]) > maxLen:
@@ -274,6 +275,8 @@ def __NormalizedValue(regex, found):
         return __PRE_EMT_MES_DIA_EX_NORM(found, regex)
     elif regex == __PRE_EMT_MES_ANO_EX:
         return __PRE_EMT_MES_ANO_EX_NORM(found, regex)
+    elif regex == __PRE_EBT_COMPL_2_EX:
+        return __PRE_EBT_COMPL_2_EX_NORM(found, regex)
     
     
     
@@ -530,7 +533,7 @@ def __GET_DATE_EVENT (event):
     try:
         conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='Patchanka777'")
         cur = conn.cursor()
-        cur.execute("""  SELECT de.* from dataentidades de,entidadesnomesalt ena  where ena.nomealt = '"""+event+"""' and ena.nome_entidade = de.nome_entidade """)
+        cur.execute("""  SELECT de.* from dataentidades de,entidadesnomesalt ena  where upper(ena.nomealt) = upper('"""+event+"""') and upper(ena.nome_entidade) = upper(de.nome_entidade) """)
         rows = cur.fetchall()
         
         saida = ""
@@ -1239,6 +1242,22 @@ def __PRE_EMT_MES_ANO_EX_NORM(found, regex):
             mes = meses[mes.lower()]
                 
         retorno = "[?]-"+ mes +"-"+ano
+        
+        return retorno
+
+def __PRE_EBT_COMPL_2_EX_NORM(found, regex):
+    for risotime in found:
+        
+        campos = risotime.split(" ")
+ 
+        ano = campos[3]       
+        mes  = campos[1]
+        dia = campos[2].replace(",","")
+            
+        if (mes not in mesesNumericos):
+            mes = meses[mes.lower()]
+                
+        retorno = dia+"-"+ mes +"-"+ano
         
         return retorno
     
