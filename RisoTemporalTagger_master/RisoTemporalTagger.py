@@ -259,6 +259,9 @@ class RisoTemporalTagger:
         __AFTER_X_YEARS_EX  = "^(after "+qtdNum+" year[s]*)$"
         __BEFORE_X_YEARS_EX = "^(before "+qtdNum+" year[s]*)$"
         
+        __BEFORE_X_YEARS_EX = "^(before "+qtdNum+" year[s]*)$"
+
+        
         __X_MONTHS_BEFORE_EX = "^("+qtdNum+" month[s]* before)$"
         __X_MONTHS_EARLY_EX  = "^("+qtdNum+" month[s]* early)$"
         __X_MONTHS_EARLIER_EX  = "^("+qtdNum+" month[s]* earlier)$"

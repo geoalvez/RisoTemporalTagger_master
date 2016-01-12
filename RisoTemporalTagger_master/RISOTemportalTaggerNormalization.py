@@ -69,6 +69,11 @@ __X_YEARS_AFTER_EX  = "^("+qtdNum+" year[s]* after)$"
 __AFTER_X_YEARS_EX  = "^(after "+qtdNum+" year[s]*)$"
 __BEFORE_X_YEARS_EX = "^(before "+qtdNum+" year[s]*)$"
 
+
+__EARLY_X_YEARS_EX = "^(early "+qtdNum+" year[s]*)$"
+
+
+
 __X_MONTHS_BEFORE_EX = "^("+qtdNum+" month[s]* before)$"
 __X_MONTHS_EARLY_EX  = "^("+qtdNum+" month[s]* early)$"
 __X_MONTHS_EARLIER_EX  = "^("+qtdNum+" month[s]* earlier)$"
@@ -78,6 +83,9 @@ __X_MONTHS_AFTER_EX  = "^("+qtdNum+" month[s]* after)$"
 __AFTER_X_MONTHS_EX  = "^(after "+qtdNum+" month[s]*)$"
 __BEFORE_X_MONTHS_EX = "^(before "+qtdNum+" month[s]*)$"
 
+__EARLY_X_MONTHS_EX = "^(early "+qtdNum+" month[s]*)$"
+
+
 __X_DAYS_BEFORE_EX = "^("+qtdNum+" day[s]* before)$"
 __X_DAYS_EARLY_EX  = "^("+qtdNum+" day[s]* early)$"
 __X_DAYS_LATE_EX   = "^("+qtdNum+" day[s]* late)$"
@@ -85,6 +93,9 @@ __X_DAYS_LATER_EX  = "^("+qtdNum+" day[s]* later)$"
 __X_DAYS_AFTER_EX  = "^("+qtdNum+" day[s]* after)$"
 __AFTER_X_DAYS_EX  = "^(after "+qtdNum+" day[s]*)$"
 __BEFORE_X_DAYS_EX = "^(before "+qtdNum+" day[s]*)$"
+
+__EARLY_X_DAYS_EX = "^(early "+qtdNum+" day[s]*)$"
+
 __ANO_EX= "^("+year+")$"
 
 
@@ -146,7 +157,7 @@ __FLAG_AFTER = ""
 def Normalization(text, ruleMatched):
     #Inicia um array com todos os padrões mapeados
     #20140415 - George Alves- Inclusao dos novos padroes - INICIO 
-    arrayFromEx = [__PRE_EBT_COMPL_2_EX, __PRE_EMT_MES_DIA_EX, __PRE_EMT_MES_ANO_EX, __PRE_EBT_COMPL_EX, __PRE_EBT_MES_ANO_EX, __PRE_EMT_EMT_COMPL_EX, __PRE_EMT_ANO, __EBT_COMPLETO_EX, __EBT_COMPLETO_INV_EX, __AA_EX, __AA_SEM_ESPACO_EX , __FromMDAToMDA_EX, __FromMDToMD_EX, __FromMToM_EX, __MD_MD_EX, __MDA_EX, __AfterMDA_EX, __BeforeMDA_EX, __DMA_EX, __MA_EX, __MD_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX , __X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __ANO_EX] 
+    arrayFromEx = [__PRE_EBT_COMPL_2_EX, __PRE_EMT_MES_DIA_EX, __PRE_EMT_MES_ANO_EX, __PRE_EBT_COMPL_EX, __PRE_EBT_MES_ANO_EX, __PRE_EMT_EMT_COMPL_EX, __PRE_EMT_ANO, __EBT_COMPLETO_EX, __EBT_COMPLETO_INV_EX, __AA_EX, __AA_SEM_ESPACO_EX , __FromMDAToMDA_EX, __FromMDToMD_EX, __FromMToM_EX, __MD_MD_EX, __MDA_EX, __AfterMDA_EX, __BeforeMDA_EX, __DMA_EX, __MA_EX, __MD_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX , __X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __ANO_EX, __EARLY_X_YEARS_EX, __EARLY_X_DAYS_EX, __EARLY_X_MONTHS_EX] 
     #20140415 - George Alves- Inclusao dos novos padroes - FIM 
     value = None
     maxLen = 0
@@ -199,7 +210,7 @@ def NormalizationDateInExpression(text, ruleMatched):
 def NormalizationListAnteriores(text, listNorm,ruleMatched):
     #Inicia um array com todos os padrões mapeados
     #20140415 - George Alves- Inclusao dos novos padroes - INICIO 
-    arrayFromEx = [__ANO_INDEFINIDO_EX, __ANO_INDEFINIDO_INV_EX,  __MES_INDEFINIDO_EX, __DIA_INDEFINIDO_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX ,__X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __PRE_EBT_DIA_MES, __PRE_MES, __MES_EX] 
+    arrayFromEx = [__ANO_INDEFINIDO_EX, __ANO_INDEFINIDO_INV_EX,  __MES_INDEFINIDO_EX, __DIA_INDEFINIDO_EX, __X_YEARS_BEFORE_EX,__X_YEARS_EARLY_EX ,__X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX  ,__X_YEARS_LATER_EX ,__X_YEARS_AFTER_EX ,__AFTER_X_YEARS_EX ,__BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX , __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX  , __X_MONTHS_LATE_EX   , __X_MONTHS_LATER_EX  , __X_MONTHS_AFTER_EX  , __AFTER_X_MONTHS_EX  , __BEFORE_X_MONTHS_EX , __X_DAYS_BEFORE_EX   , __X_DAYS_EARLY_EX    , __X_DAYS_LATE_EX     , __X_DAYS_LATER_EX    , __X_DAYS_AFTER_EX    , __AFTER_X_DAYS_EX    , __BEFORE_X_DAYS_EX, __PRE_EBT_DIA_MES, __PRE_MES, __MES_EX, __EARLY_X_YEARS_EX, __EARLY_X_DAYS_EX, __EARLY_X_MONTHS_EX] 
     #20140415 - George Alves- Inclusao dos novos padroes - FIM 
     
     if (len(listNorm)>0):
@@ -444,6 +455,8 @@ def __NormalizedValueListNorm(regex, found, listNorm):
     elif regex == __BEFORE_X_YEARS_EX:
         return __BEFORE_X_YEARS(found,listNorm)
     
+    elif regex == __EARLY_X_YEARS_EX:
+        return __BEFORE_X_YEARS(found,listNorm)
 
 
     elif regex == __X_MONTHS_BEFORE_EX:
@@ -463,6 +476,8 @@ def __NormalizedValueListNorm(regex, found, listNorm):
     elif regex == __BEFORE_X_MONTHS_EX:
         return __BEFORE_X_MONTHS(found,listNorm)
 
+    elif regex == __EARLY_X_MONTHS_EX:
+        return __BEFORE_X_MONTHS(found,listNorm)
 
 
     elif regex == __X_DAYS_BEFORE_EX:
@@ -479,6 +494,10 @@ def __NormalizedValueListNorm(regex, found, listNorm):
         return __AFTER_X_DAYS(found,listNorm)
     elif regex == __BEFORE_X_DAYS_EX:
         return __BEFORE_X_DAYS(found,listNorm)
+
+    elif regex == __EARLY_X_MONTHS_EX:
+        return __BEFORE_X_DAYS(found,listNorm)
+
     
     elif regex == __ANO_INDEFINIDO_EX or regex == __ANO_INDEFINIDO_INV_EX or regex == __MES_INDEFINIDO_EX or regex == __DIA_INDEFINIDO_EX:
         return __EBT_GET_DATA(found,listNorm, regex)
