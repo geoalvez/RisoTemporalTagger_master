@@ -1269,9 +1269,9 @@ def __PRE_EBT_COMPL_2_EX_NORM(found, regex):
         
         campos = risotime.split(" ")
  
-        ano = campos[3]       
-        mes  = campos[1]
-        dia = campos[2].replace(",","")
+        ano = campos[len(campos)-1]       
+        mes  = campos[len(campos)-3]
+        dia = campos[len(campos)-2].replace(",","")
             
         if (mes not in mesesNumericos):
             mes = meses[mes.lower()]
