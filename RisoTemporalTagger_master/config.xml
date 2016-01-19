@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <configuracao>
     <padroes>
-		<padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/estrutura_pre_temporal.xml"/>
-		<padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/unidade_temporal.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/unidade_numeral.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/hora.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/dia.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/data_numeral.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/mes.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/mes_numerico.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/ano.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/datas_especiais.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/partes_do_ano.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/estacao_do_ano.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/parte_do_dia.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/parte_da_semana.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/expressoes.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/preposicoes.xml"/>
-        <padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/adverbio.xml"/>
-		<padrao arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/curtas_expressoes.xml"/>
+		<padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/estrutura_pre_temporal.xml"/>
+		<padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/unidade_temporal.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/unidade_numeral.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/hora.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/dia.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/data_numeral.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/mes.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/mes_numerico.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/ano.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/datas_especiais.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/partes_do_ano.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/estacao_do_ano.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/parte_do_dia.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/parte_da_semana.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/expressoes.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/preposicoes.xml"/>
+        <padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/adverbio.xml"/>
+		<padrao arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/curtas_expressoes.xml"/>
     </padroes>
     <regras>
-        <regra arquivo="C:/workspace_mestrado/RisoTemporalTagger_soprasubir/regras/expressao_temporal.xml"/>
+        <regra arquivo="C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/regras/expressao_temporal.xml"/>
     </regras>
 </configuracao>

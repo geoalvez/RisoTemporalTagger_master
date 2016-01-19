@@ -384,6 +384,8 @@ class RisoTemporalTagger:
             return RISOTemportalTaggerNormalization.Normalization(value_matched,rule_matched)
         elif rule_matched == 'Pre-EMT':
             return RISOTemportalTaggerNormalization.Normalization(value_matched,rule_matched)
+        elif rule_matched == 'Pre-A-Pre-A':
+            return RISOTemportalTaggerNormalization.Normalization(value_matched,rule_matched)
         elif rule_matched == 'Pre-EBT':
             retorno = ''
             retorno =  RISOTemportalTaggerNormalization.Normalization(value_matched,rule_matched)

@@ -2,6 +2,7 @@
 <regras>
     <simbolo nome="expressao_temporal">
 		<expressao tipo="I">intervalos</expressao>
+		<expressao tipo="Pre-A-Pre-A">preposicoes ano preposicoes ano</expressao>
         <expressao tipo="EPT-EBT-Adv">estrutura_pre_temporal estrutura_basica_temporal adverbio</expressao>
 		<expressao tipo="EPT-EBT-UT">estrutura_pre_temporal estrutura_basica_temporal unidade_temporal</expressao>
 		<expressao tipo="EPT-UT-Adv">estrutura_pre_temporal unidade_temporal adverbio</expressao>
