@@ -1367,10 +1367,10 @@ def __PRE_EMT_EMT_COMPL_EX_NORM(found, regex):
 def __PRE_EBT_DIA_MES_NORM(found, regex):
     for risotime in found:
         campos = risotime.split(" ")
-        if (campos[2] in mesesNumericos):
-            return campos[1] + "-" + campos[2] + "-[?]";
-        elif (campos[2].lower() in month):
-            return campos[1] + "-" + meses[campos[2].lower()] + "-[?]";
+        if (campos[len(campos)-1] in mesesNumericos):
+            return campos[len(campos)-2] + "-" + campos[len(campos)-1] + "-[?]";
+        elif (campos[len(campos)-1].lower() in month):
+            return campos[len(campos)-2] + "-" + meses[campos[len(campos)-1].lower()] + "-[?]";
         
 #        if (len(listNorm) > 0):
 #            ultimaDataNormalizada = listNorm[len(listNorm)-1]
