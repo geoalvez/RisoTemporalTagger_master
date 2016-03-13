@@ -69,7 +69,7 @@ class RisoTemporalTagger:
         for tag in pattern_xml:
             pattern_filepath = tag.getAttribute('arquivo')
             print tag.getAttribute('arquivo')
-            if (tag.getAttribute('arquivo') == 'C:/workspace_mestrado/RisoTemporalTagger_soprasubir/padroes/datas_especiais.xml'):
+            if (tag.getAttribute('arquivo') == 'C:/Users/george.marcelo.alves/git/RisoTemporalTagger_master/RisoTemporalTagger_master/padroes/datas_especiais.xml'):
                 print
             xml = parseString(self.__read_file(pattern_filepath))
             pattern = xml.getElementsByTagName('simbolo')[0] # um padrao por arquivo
@@ -280,7 +280,7 @@ class RisoTemporalTagger:
         __BEFORE_X_DAYS_EX = "^(before "+qtdNum+" day[s]*)$"
         
         try:
-            conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='Patchanka777'")
+            conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='postgres'")
             cur = conn.cursor()
             achou = False
             arrayFromEx = [__X_YEARS_BEFORE_EX, __X_YEARS_EARLY_EX, __X_YEARS_EARLIER_EX, __X_YEARS_LATE_EX, __X_YEARS_LATER_EX, __X_YEARS_AFTER_EX, __AFTER_X_YEARS_EX, __BEFORE_X_YEARS_EX, __X_MONTHS_BEFORE_EX, __X_MONTHS_EARLY_EX, __X_MONTHS_EARLIER_EX, __X_MONTHS_LATE_EX, __X_MONTHS_LATER_EX, __X_MONTHS_AFTER_EX, __AFTER_X_MONTHS_EX, __BEFORE_X_MONTHS_EX, __X_DAYS_BEFORE_EX, __X_DAYS_EARLY_EX, __X_DAYS_LATE_EX, __X_DAYS_LATER_EX, __X_DAYS_AFTER_EX, __AFTER_X_DAYS_EX, __BEFORE_X_DAYS_EX] 
@@ -334,7 +334,7 @@ class RisoTemporalTagger:
     def __INSERT_DOCUMENT_INFO (self, nomeDocumento):
         
         try:
-            conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='Patchanka777'")
+            conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='postgres'")
             cur = conn.cursor()
             achou = False
             if not (achou):
